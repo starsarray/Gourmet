@@ -1,0 +1,208 @@
+22:54:24 debug: 2024/8/26下午10:54:24
+22:54:24 debug: Project: D:\ProgramData\cocos\workplace\Gourmet
+22:54:24 debug: Targets: editor,preview
+22:54:24 debug: Incremental file seems great.
+22:54:24 debug: Engine path: D:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine
+22:54:24 debug: Initializing target [Editor]
+22:54:24 debug: Loading cache
+22:54:24 debug: Loading cache costs 1.6444000005722046ms.
+22:54:24 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,gfx-empty,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,physics-2d-box2d-wasm,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,xr,light-probe,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,procedural-animation,custom-pipeline,websocket,websocket-server,meshopt
+22:54:24 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+22:54:24 debug: Initializing target [Preview]
+22:54:24 debug: Loading cache
+22:54:24 debug: Loading cache costs 1.3773000240325928ms.
+22:54:24 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc"
+  }
+}
+22:54:24 debug: Sync engine features: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,meshopt,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview
+22:54:24 debug: Reset databases. Enumerated domains: [
+  {
+    "root": "db://internal/",
+    "physical": "D:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets"
+  },
+  {
+    "root": "db://assets/",
+    "physical": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets"
+  }
+]
+22:54:24 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///D:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///D:/ProgramData/cocos/workplace/Gourmet/assets/"
+  }
+}
+22:54:24 debug: Our import map(foo:/bar): {
+  "imports": {
+    "cc": "cce:/internal/x/cc",
+    "db://internal/": "file:///D:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/",
+    "db://assets/": "file:///D:/ProgramData/cocos/workplace/Gourmet/assets/"
+  }
+}
+22:54:24 debug: Pulling asset-db.
+22:54:24 debug: Fetch asset-db cost: 7.478600025177002ms.
+22:54:24 debug: Build iteration starts.
+Number of accumulated asset changes: 6
+Feature changed: false
+22:54:24 debug: Target(editor) build started.
+22:54:24 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:10 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间)
+22:54:24 debug: Inspect cce:/internal/x/cc
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/gfx-empty from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-empty.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/skeletal-animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/skeletal-animation.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d-wasm from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d-wasm.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/geometry-renderer from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/geometry-renderer.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/xr from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/xr.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/light-probe from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/light-probe.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
+22:54:25 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 22:05:27 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间)
+22:54:25 debug: Inspect cce:/internal/x/prerequisite-imports
+22:54:25 debug: Resolve file:///D:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts.
+22:54:25 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts as cce:/internal/code-quality/cr.mjs.
+22:54:25 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Mon Aug 26 2024 08:45:33 GMT+0800 (中国标准时间), Current mtime: Mon Aug 26 2024 22:54:16 GMT+0800 (中国标准时间)
+22:54:25 debug: Inspect cce:/internal/code-quality/cr.mjs
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve ../RecipesGenerate from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts.
+22:54:25 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts as cce:/internal/code-quality/cr.mjs.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve ./NavigationBar from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts.
+22:54:25 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts as cce:/internal/code-quality/cr.mjs.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve ../UIStackManager from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts.
+22:54:25 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts as cce:/internal/code-quality/cr.mjs.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve ../RecipesGenerate from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts.
+22:54:25 debug: Resolve ../NavigationBar from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts.
+22:54:25 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts.
+22:54:25 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts.
+22:54:25 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts.
+22:54:25 debug: Target(editor) ends with cost 161.8901999592781ms.
+22:54:25 debug: Target(preview) build started.
+22:54:25 debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:10 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间)
+22:54:25 debug: Inspect cce:/internal/x/cc
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/sorting from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/sorting.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+22:54:25 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+22:54:25 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 22:05:27 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间)
+22:54:25 debug: Inspect cce:/internal/x/prerequisite-imports
+22:54:25 debug: Resolve file:///D:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts.
+22:54:25 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts as cce:/internal/code-quality/cr.mjs.
+22:54:25 debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Mon Aug 26 2024 08:45:33 GMT+0800 (中国标准时间), Current mtime: Mon Aug 26 2024 22:54:16 GMT+0800 (中国标准时间)
+22:54:25 debug: Inspect cce:/internal/code-quality/cr.mjs
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve ../RecipesGenerate from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts.
+22:54:25 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts as cce:/internal/code-quality/cr.mjs.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve ./NavigationBar from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts.
+22:54:25 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts as cce:/internal/code-quality/cr.mjs.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve ../UIStackManager from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts.
+22:54:25 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts as cce:/internal/code-quality/cr.mjs.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts as cce:/internal/x/cc.
+22:54:25 debug: Resolve ../RecipesGenerate from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts.
+22:54:25 debug: Resolve ../NavigationBar from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts.
+22:54:25 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts.
+22:54:25 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts.
+22:54:25 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts.
+22:54:25 debug: Target(preview) ends with cost 123.04970002174377ms.
+22:54:25 debug: Pulling asset-db.
+22:54:26 debug: Fetch asset-db cost: 759.8048000335693ms.
+22:54:26 debug: Build iteration starts.
+Number of accumulated asset changes: 6
+Feature changed: false
+22:54:26 debug: Target(editor) build started.
+22:54:26 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:10 GMT+0800 (中国标准时间)
+22:54:26 debug: Inspect cce:/internal/x/prerequisite-imports
+22:54:26 debug: Resolve file:///D:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+22:54:26 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts.
+22:54:26 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts.
+22:54:26 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts.
+22:54:26 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts.
+22:54:26 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts.
+22:54:26 debug: Target(editor) ends with cost 57.23489999771118ms.
+22:54:26 debug: Target(preview) build started.
+22:54:26 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:10 GMT+0800 (中国标准时间)
+22:54:26 debug: Inspect cce:/internal/x/prerequisite-imports
+22:54:26 debug: Resolve file:///D:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+22:54:26 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts.
+22:54:26 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts.
+22:54:26 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts.
+22:54:26 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts.
+22:54:26 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts.
+22:54:26 debug: Target(preview) ends with cost 52.77740001678467ms.
