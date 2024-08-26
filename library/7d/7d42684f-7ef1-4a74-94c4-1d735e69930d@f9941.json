@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "炸蛋",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1308,
+      "height": 834
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 1308,
+      "height": 834
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -654,
+        -417,
+        0,
+        654,
+        -417,
+        0,
+        -654,
+        417,
+        0,
+        654,
+        417,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        834,
+        1308,
+        834,
+        0,
+        0,
+        1308,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -654,
+        "y": -417,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 654,
+        "y": 417,
+        "z": 0
+      }
+    },
+    "texture": "7d42684f-7ef1-4a74-94c4-1d735e69930d@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

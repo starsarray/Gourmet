@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "英式炒蛋",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1210,
+      "height": 868
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 1210,
+      "height": 868
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -605,
+        -434,
+        0,
+        605,
+        -434,
+        0,
+        -605,
+        434,
+        0,
+        605,
+        434,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        868,
+        1210,
+        868,
+        0,
+        0,
+        1210,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -605,
+        "y": -434,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 605,
+        "y": 434,
+        "z": 0
+      }
+    },
+    "texture": "a4777cfb-50f1-487a-ab9f-16b452e13c8d@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

@@ -1,0 +1,760 @@
+{
+  "1b015c85-56e2-4613-8b33-729106000d8c": {
+    "url": "db://assets/scene/Recipes/RecipesHomeScene.scene",
+    "value": {
+      "depends": [
+        "1b015c85-56e2-4613-8b33-729106000d8c",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "104227a8-b031-4ce5-97d1-5132e67ab74c",
+        "e633977b-10b9-4822-b955-363bf3f68216",
+        "e712a9e9-0d9e-43d0-becb-c586f0ad5eda",
+        "8a6b7b98-a19c-4122-a0f3-11cf6fbbcf34",
+        "afc47931-f066-46b0-90be-9fe61f213428@f9941",
+        "ffb88a8f-af62-48f4-8f1d-3cb606443a43@f9941",
+        "24a704da-2867-446d-8d1a-5e920c75e09d@f9941",
+        "0102b48d-d713-4246-adeb-9ff7a94b4de9",
+        "f12ea3c9-9b1a-4cd6-927e-13d1fa48afa5",
+        "5083edbe-f9c2-4dbf-b48d-8456923bdef7",
+        "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
+      ],
+      "dependScripts": [
+        "0fc39eac-836a-46a0-aa9a-456b648bd0fd",
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
+        "e44063f7-8a02-43f7-8b84-cf169a0cbedf",
+        "50964c2a-dd6a-42cc-87ab-45f04a5cbb54"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cd96e246-e41c-4538-af24-47c15f7f2244": {
+    "url": "db://assets/scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "010794f8-95de-442b-98ed-349990f5d5d1": {
+    "url": "db://assets/script",
+    "value": {},
+    "versionCode": 1
+  },
+  "4cfdcce6-ce2e-45c9-b10e-d1b95a216b76": {
+    "url": "db://assets/script/Recipes/RecipeSearch.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "17f5c11f-2f5f-4ca9-a9d2-cae33da3c279": {
+    "url": "db://assets/script/Recipes",
+    "value": {},
+    "versionCode": 1
+  },
+  "fec33f06-7a93-4bd4-9510-c41fe4ff43c3": {
+    "url": "db://assets/script/Recipes/RecipesGenerate.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "50964c2a-dd6a-42cc-87ab-45f04a5cbb54": {
+    "url": "db://assets/script/Recipes/RecipesGenerate.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "1dc02a53-3e21-485b-a639-e3835203a667": {
+    "url": "db://assets/script/Recipes/Home/RecipesSearch.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "2d55d99d-8919-4b43-9b0f-55d7f1ffc7fd": {
+    "url": "db://assets/script/Recipes/RecipesList.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "58ab5181-4e59-4c7b-bf4c-a994142f9015": {
+    "url": "db://assets/Prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "cf9bff87-d291-49f5-a30b-31f2e21b98b1": {
+    "url": "db://assets/Prefab/RecipeList.prefab",
+    "value": {
+      "depends": [
+        "afc47931-f066-46b0-90be-9fe61f213428@f9941",
+        "ffb88a8f-af62-48f4-8f1d-3cb606443a43@f9941",
+        "24a704da-2867-446d-8d1a-5e920c75e09d@f9941"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "8a6b7b98-a19c-4122-a0f3-11cf6fbbcf34": {
+    "url": "db://assets/Prefab/RecipeSearch.prefab",
+    "value": {
+      "depends": [
+        "24a704da-2867-446d-8d1a-5e920c75e09d@f9941",
+        "0102b48d-d713-4246-adeb-9ff7a94b4de9"
+      ],
+      "dependScripts": [
+        "1dc02a53-3e21-485b-a639-e3835203a667",
+        "50964c2a-dd6a-42cc-87ab-45f04a5cbb54"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a160297e-708c-4f42-ab64-f25edb45bdab": {
+    "url": "db://assets/Material",
+    "value": {},
+    "versionCode": 1
+  },
+  "b52b9e74-e33a-46ee-b815-21d936d292b4": {
+    "url": "db://assets/Prefab/NavigationBar.prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "0fc39eac-836a-46a0-aa9a-456b648bd0fd": {
+    "url": "db://assets/script/Recipes/NavigationBar.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "82edd278-eaa5-4574-ba60-971a192999e6": {
+    "url": "db://assets/scene/Recipes/IngredientSearchScene.scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "8cc605a3-4949-4ad2-aa58-383805933f0f": {
+    "url": "db://assets/scene/Recipes/RandomRecipeScene.scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "af2c3ae8-8983-47dc-875b-cc2b9df906ac": {
+    "url": "db://assets/scene/Recipes",
+    "value": {},
+    "versionCode": 1
+  },
+  "fd136d50-5ab0-4185-9967-66f74cd331d7": {
+    "url": "db://assets/Prefab/RecipeListitem.prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "0102b48d-d713-4246-adeb-9ff7a94b4de9": {
+    "url": "db://assets/Prefab/RecipeListitem.prefab",
+    "value": {
+      "depends": [],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "e44063f7-8a02-43f7-8b84-cf169a0cbedf": {
+    "url": "db://assets/script/Recipes/IngredientSearch/IngredientSearch.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f12ea3c9-9b1a-4cd6-927e-13d1fa48afa5": {
+    "url": "db://assets/Prefab/IngredientButton.prefab",
+    "value": {
+      "depends": [
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "5083edbe-f9c2-4dbf-b48d-8456923bdef7": {
+    "url": "db://assets/Prefab/CookingMethodButton.prefab",
+    "value": {
+      "depends": [
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "55fbbf71-8961-40dd-98cb-2465f4cb4189": {
+    "url": "db://assets/script/Recipes/Home",
+    "value": {},
+    "versionCode": 1
+  },
+  "1ccf6994-db12-4814-8e05-18c87a2a9f78": {
+    "url": "db://assets/script/Recipes/IngredientSearch",
+    "value": {},
+    "versionCode": 1
+  },
+  "2fcfaabc-93ac-448d-acea-49e1a5b7b250": {
+    "url": "db://assets/script/Recipes/IngredientSearch/NewComponent.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "218d2522-be0e-490c-9079-2fa89348451f": {
+    "url": "db://assets/script/Recipes/IngredientSearch/ListH.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f52166bc-d788-4bca-97b2-aac10ac5e9ed": {
+    "url": "db://assets/script/Scene.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "cf8c4f6a-6d8d-4083-9e9f-9cdf35843320": {
+    "url": "db://assets/script/UIStackManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "164d6912-0ee1-4a25-88de-c9d3bba209a3": {
+    "url": "db://assets/scene/Recipes/RecipeDetailScene.scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "e9b1d595-c628-468e-acfa-70336004353f": {
+    "url": "db://assets/script/Recipes/Detail",
+    "value": {},
+    "versionCode": 1
+  },
+  "8e884296-ba48-46dc-afa1-9f1c79f2401f": {
+    "url": "db://assets/script/Recipes/Detail/Return.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "104227a8-b031-4ce5-97d1-5132e67ab74c": {
+    "url": "db://assets/Prefab/RecipeDetail.prefab",
+    "value": {
+      "depends": [
+        "24a704da-2867-446d-8d1a-5e920c75e09d@f9941"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "e633977b-10b9-4822-b955-363bf3f68216": {
+    "url": "db://assets/Prefab/RichText.prefab",
+    "value": {
+      "depends": [],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "efd887d8-7524-45d1-aa8c-c3789ff8625c": {
+    "url": "db://assets/resources/image",
+    "value": {},
+    "versionCode": 1
+  },
+  "28bb7645-0620-4ebd-8785-a069d37183e6": {
+    "url": "db://assets/resources/image/egg/水蒸蛋.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "28bb7645-0620-4ebd-8785-a069d37183e6@6c48a": {
+    "url": "db://assets/resources/image/egg/水蒸蛋.png@6c48a",
+    "value": {
+      "depends": [
+        "28bb7645-0620-4ebd-8785-a069d37183e6"
+      ]
+    },
+    "versionCode": 1
+  },
+  "28bb7645-0620-4ebd-8785-a069d37183e6@f9941": {
+    "url": "db://assets/resources/image/egg/水蒸蛋.png@f9941",
+    "value": {
+      "depends": [
+        "28bb7645-0620-4ebd-8785-a069d37183e6@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b920501a-2930-4b58-9863-83f5e6c422da": {
+    "url": "db://assets/resources/image/egg/番茄炒蛋.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b920501a-2930-4b58-9863-83f5e6c422da@6c48a": {
+    "url": "db://assets/resources/image/egg/番茄炒蛋.png@6c48a",
+    "value": {
+      "depends": [
+        "b920501a-2930-4b58-9863-83f5e6c422da"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b920501a-2930-4b58-9863-83f5e6c422da@f9941": {
+    "url": "db://assets/resources/image/egg/番茄炒蛋.png@f9941",
+    "value": {
+      "depends": [
+        "b920501a-2930-4b58-9863-83f5e6c422da@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f05e188b-ca62-4512-8cb5-781f702d914b": {
+    "url": "db://assets/resources/image/egg",
+    "value": {},
+    "versionCode": 1
+  },
+  "e712a9e9-0d9e-43d0-becb-c586f0ad5eda": {
+    "url": "db://assets/Prefab/FoodImage.prefab",
+    "value": {
+      "depends": [],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "4b9fad23-84c1-4834-a7e5-8ecf5543ba4d": {
+    "url": "db://assets/resources",
+    "value": {},
+    "versionCode": 1
+  },
+  "9bd3cc97-25b9-4173-baeb-0eb96739e7a5": {
+    "url": "db://assets/resources/image/egg/溏心蛋.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9bd3cc97-25b9-4173-baeb-0eb96739e7a5@6c48a": {
+    "url": "db://assets/resources/image/egg/溏心蛋.png@6c48a",
+    "value": {
+      "depends": [
+        "9bd3cc97-25b9-4173-baeb-0eb96739e7a5"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9bd3cc97-25b9-4173-baeb-0eb96739e7a5@f9941": {
+    "url": "db://assets/resources/image/egg/溏心蛋.png@f9941",
+    "value": {
+      "depends": [
+        "9bd3cc97-25b9-4173-baeb-0eb96739e7a5@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8a84440e-e7c3-49f3-97a7-35ce19a2620b": {
+    "url": "db://assets/resources/image/egg/温泉蛋.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8a84440e-e7c3-49f3-97a7-35ce19a2620b@6c48a": {
+    "url": "db://assets/resources/image/egg/温泉蛋.png@6c48a",
+    "value": {
+      "depends": [
+        "8a84440e-e7c3-49f3-97a7-35ce19a2620b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8a84440e-e7c3-49f3-97a7-35ce19a2620b@f9941": {
+    "url": "db://assets/resources/image/egg/温泉蛋.png@f9941",
+    "value": {
+      "depends": [
+        "8a84440e-e7c3-49f3-97a7-35ce19a2620b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5b696ff1-ad7d-4a55-8aec-a8c345db32d0": {
+    "url": "db://assets/resources/image/egg/水波蛋.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5b696ff1-ad7d-4a55-8aec-a8c345db32d0@6c48a": {
+    "url": "db://assets/resources/image/egg/水波蛋.png@6c48a",
+    "value": {
+      "depends": [
+        "5b696ff1-ad7d-4a55-8aec-a8c345db32d0"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5b696ff1-ad7d-4a55-8aec-a8c345db32d0@f9941": {
+    "url": "db://assets/resources/image/egg/水波蛋.png@f9941",
+    "value": {
+      "depends": [
+        "5b696ff1-ad7d-4a55-8aec-a8c345db32d0@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7d42684f-7ef1-4a74-94c4-1d735e69930d": {
+    "url": "db://assets/resources/image/egg/炸蛋.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7d42684f-7ef1-4a74-94c4-1d735e69930d@6c48a": {
+    "url": "db://assets/resources/image/egg/炸蛋.png@6c48a",
+    "value": {
+      "depends": [
+        "7d42684f-7ef1-4a74-94c4-1d735e69930d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7d42684f-7ef1-4a74-94c4-1d735e69930d@f9941": {
+    "url": "db://assets/resources/image/egg/炸蛋.png@f9941",
+    "value": {
+      "depends": [
+        "7d42684f-7ef1-4a74-94c4-1d735e69930d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "07bda94b-0147-4cbe-867e-44b263c8794d": {
+    "url": "db://assets/resources/image/egg/铺盖炸蛋.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "07bda94b-0147-4cbe-867e-44b263c8794d@6c48a": {
+    "url": "db://assets/resources/image/egg/铺盖炸蛋.png@6c48a",
+    "value": {
+      "depends": [
+        "07bda94b-0147-4cbe-867e-44b263c8794d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "07bda94b-0147-4cbe-867e-44b263c8794d@f9941": {
+    "url": "db://assets/resources/image/egg/铺盖炸蛋.png@f9941",
+    "value": {
+      "depends": [
+        "07bda94b-0147-4cbe-867e-44b263c8794d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "90b9b11e-7ab4-4e69-8c8f-c6f132d4cb6f": {
+    "url": "db://assets/resources/image/egg/鸡蛋蒜.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "90b9b11e-7ab4-4e69-8c8f-c6f132d4cb6f@6c48a": {
+    "url": "db://assets/resources/image/egg/鸡蛋蒜.png@6c48a",
+    "value": {
+      "depends": [
+        "90b9b11e-7ab4-4e69-8c8f-c6f132d4cb6f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "90b9b11e-7ab4-4e69-8c8f-c6f132d4cb6f@f9941": {
+    "url": "db://assets/resources/image/egg/鸡蛋蒜.png@f9941",
+    "value": {
+      "depends": [
+        "90b9b11e-7ab4-4e69-8c8f-c6f132d4cb6f@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7b1da7d1-8d6c-4765-921b-7b63cd5d403e": {
+    "url": "db://assets/resources/image/egg/东北鸡蛋酱.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7b1da7d1-8d6c-4765-921b-7b63cd5d403e@6c48a": {
+    "url": "db://assets/resources/image/egg/东北鸡蛋酱.png@6c48a",
+    "value": {
+      "depends": [
+        "7b1da7d1-8d6c-4765-921b-7b63cd5d403e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7b1da7d1-8d6c-4765-921b-7b63cd5d403e@f9941": {
+    "url": "db://assets/resources/image/egg/东北鸡蛋酱.png@f9941",
+    "value": {
+      "depends": [
+        "7b1da7d1-8d6c-4765-921b-7b63cd5d403e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a4777cfb-50f1-487a-ab9f-16b452e13c8d": {
+    "url": "db://assets/resources/image/egg/英式炒蛋.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a4777cfb-50f1-487a-ab9f-16b452e13c8d@6c48a": {
+    "url": "db://assets/resources/image/egg/英式炒蛋.png@6c48a",
+    "value": {
+      "depends": [
+        "a4777cfb-50f1-487a-ab9f-16b452e13c8d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a4777cfb-50f1-487a-ab9f-16b452e13c8d@f9941": {
+    "url": "db://assets/resources/image/egg/英式炒蛋.png@f9941",
+    "value": {
+      "depends": [
+        "a4777cfb-50f1-487a-ab9f-16b452e13c8d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2ec1e95d-7bf8-497d-becb-038c0d7331e2": {
+    "url": "db://assets/resources/image/egg/法式炒蛋.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2ec1e95d-7bf8-497d-becb-038c0d7331e2@6c48a": {
+    "url": "db://assets/resources/image/egg/法式炒蛋.png@6c48a",
+    "value": {
+      "depends": [
+        "2ec1e95d-7bf8-497d-becb-038c0d7331e2"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2ec1e95d-7bf8-497d-becb-038c0d7331e2@f9941": {
+    "url": "db://assets/resources/image/egg/法式炒蛋.png@f9941",
+    "value": {
+      "depends": [
+        "2ec1e95d-7bf8-497d-becb-038c0d7331e2@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f60d4163-c2d6-4708-baf3-085fe5e232b7": {
+    "url": "db://assets/resources/image/egg/茶叶蛋.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f60d4163-c2d6-4708-baf3-085fe5e232b7@6c48a": {
+    "url": "db://assets/resources/image/egg/茶叶蛋.png@6c48a",
+    "value": {
+      "depends": [
+        "f60d4163-c2d6-4708-baf3-085fe5e232b7"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f60d4163-c2d6-4708-baf3-085fe5e232b7@f9941": {
+    "url": "db://assets/resources/image/egg/茶叶蛋.png@f9941",
+    "value": {
+      "depends": [
+        "f60d4163-c2d6-4708-baf3-085fe5e232b7@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c57612f3-f62a-46ca-9286-a9ebdc715a0c": {
+    "url": "db://assets/resources/image/egg/泰式卤蛋.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c57612f3-f62a-46ca-9286-a9ebdc715a0c@6c48a": {
+    "url": "db://assets/resources/image/egg/泰式卤蛋.png@6c48a",
+    "value": {
+      "depends": [
+        "c57612f3-f62a-46ca-9286-a9ebdc715a0c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c57612f3-f62a-46ca-9286-a9ebdc715a0c@f9941": {
+    "url": "db://assets/resources/image/egg/泰式卤蛋.png@f9941",
+    "value": {
+      "depends": [
+        "c57612f3-f62a-46ca-9286-a9ebdc715a0c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d5eaab6b-9121-487c-bba4-14840cfdacd0": {
+    "url": "db://assets/resources/image/egg/糖醋荷包蛋.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d5eaab6b-9121-487c-bba4-14840cfdacd0@6c48a": {
+    "url": "db://assets/resources/image/egg/糖醋荷包蛋.png@6c48a",
+    "value": {
+      "depends": [
+        "d5eaab6b-9121-487c-bba4-14840cfdacd0"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d5eaab6b-9121-487c-bba4-14840cfdacd0@f9941": {
+    "url": "db://assets/resources/image/egg/糖醋荷包蛋.png@f9941",
+    "value": {
+      "depends": [
+        "d5eaab6b-9121-487c-bba4-14840cfdacd0@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f74c6569-d829-4e0d-9697-45e0b2617e21": {
+    "url": "db://assets/resources/image/egg/烤布丁.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f74c6569-d829-4e0d-9697-45e0b2617e21@6c48a": {
+    "url": "db://assets/resources/image/egg/烤布丁.png@6c48a",
+    "value": {
+      "depends": [
+        "f74c6569-d829-4e0d-9697-45e0b2617e21"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f74c6569-d829-4e0d-9697-45e0b2617e21@f9941": {
+    "url": "db://assets/resources/image/egg/烤布丁.png@f9941",
+    "value": {
+      "depends": [
+        "f74c6569-d829-4e0d-9697-45e0b2617e21@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2b85f8cb-a697-42c8-bcf8-f6bd861c5971": {
+    "url": "db://assets/resources/image/egg/厚蛋烧.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2b85f8cb-a697-42c8-bcf8-f6bd861c5971@6c48a": {
+    "url": "db://assets/resources/image/egg/厚蛋烧.png@6c48a",
+    "value": {
+      "depends": [
+        "2b85f8cb-a697-42c8-bcf8-f6bd861c5971"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2b85f8cb-a697-42c8-bcf8-f6bd861c5971@f9941": {
+    "url": "db://assets/resources/image/egg/厚蛋烧.png@f9941",
+    "value": {
+      "depends": [
+        "2b85f8cb-a697-42c8-bcf8-f6bd861c5971@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9210020e-c1f7-41c0-857b-fe86ce791b3f": {
+    "url": "db://assets/resources/image/egg/魔鬼蛋.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9210020e-c1f7-41c0-857b-fe86ce791b3f@6c48a": {
+    "url": "db://assets/resources/image/egg/魔鬼蛋.png@6c48a",
+    "value": {
+      "depends": [
+        "9210020e-c1f7-41c0-857b-fe86ce791b3f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9210020e-c1f7-41c0-857b-fe86ce791b3f@f9941": {
+    "url": "db://assets/resources/image/egg/魔鬼蛋.png@f9941",
+    "value": {
+      "depends": [
+        "9210020e-c1f7-41c0-857b-fe86ce791b3f@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f2935ae3-d326-477b-8338-7c565ae64c1f": {
+    "url": "db://assets/resources/image/egg/赛螃蟹.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f2935ae3-d326-477b-8338-7c565ae64c1f@6c48a": {
+    "url": "db://assets/resources/image/egg/赛螃蟹.png@6c48a",
+    "value": {
+      "depends": [
+        "f2935ae3-d326-477b-8338-7c565ae64c1f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f2935ae3-d326-477b-8338-7c565ae64c1f@f9941": {
+    "url": "db://assets/resources/image/egg/赛螃蟹.png@f9941",
+    "value": {
+      "depends": [
+        "f2935ae3-d326-477b-8338-7c565ae64c1f@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "24ebe5e6-94b1-4e5a-a92a-eb7d5f003e2d": {
+    "url": "db://assets/resources/image/egg/苏格兰蛋.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "24ebe5e6-94b1-4e5a-a92a-eb7d5f003e2d@6c48a": {
+    "url": "db://assets/resources/image/egg/苏格兰蛋.png@6c48a",
+    "value": {
+      "depends": [
+        "24ebe5e6-94b1-4e5a-a92a-eb7d5f003e2d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "24ebe5e6-94b1-4e5a-a92a-eb7d5f003e2d@f9941": {
+    "url": "db://assets/resources/image/egg/苏格兰蛋.png@f9941",
+    "value": {
+      "depends": [
+        "24ebe5e6-94b1-4e5a-a92a-eb7d5f003e2d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "dd14200a-701a-4797-9e83-8c17461cecc5": {
+    "url": "db://assets/resources/image/egg/班尼迪克蛋.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "dd14200a-701a-4797-9e83-8c17461cecc5@6c48a": {
+    "url": "db://assets/resources/image/egg/班尼迪克蛋.png@6c48a",
+    "value": {
+      "depends": [
+        "dd14200a-701a-4797-9e83-8c17461cecc5"
+      ]
+    },
+    "versionCode": 1
+  },
+  "dd14200a-701a-4797-9e83-8c17461cecc5@f9941": {
+    "url": "db://assets/resources/image/egg/班尼迪克蛋.png@f9941",
+    "value": {
+      "depends": [
+        "dd14200a-701a-4797-9e83-8c17461cecc5@6c48a"
+      ]
+    },
+    "versionCode": 1
+  }
+}

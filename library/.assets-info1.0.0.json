@@ -1,0 +1,454 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\scene.meta": {
+      "time": 1724378272681.1606
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\scene": {
+      "time": 1724403668616.7036,
+      "uuid": "cd96e246-e41c-4538-af24-47c15f7f2244"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script.meta": {
+      "time": 1724378447727.0044
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script": {
+      "time": 1724565393673.028,
+      "uuid": "010794f8-95de-442b-98ed-349990f5d5d1"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes.meta": {
+      "time": 1724378549072.3733
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes": {
+      "time": 1724505973676.379,
+      "uuid": "17f5c11f-2f5f-4ca9-a9d2-cae33da3c279"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\RecipesGenerate.ts.meta": {
+      "time": 1724378770453.1377
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\RecipesGenerate.ts": {
+      "time": 1724669411569.8972,
+      "uuid": "50964c2a-dd6a-42cc-87ab-45f04a5cbb54"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab.meta": {
+      "time": 1724379823120.645
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab": {
+      "time": 1724587748145.577,
+      "uuid": "58ab5181-4e59-4c7b-bf4c-a994142f9015"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab\\RecipeList.prefab.meta": {
+      "time": 1724379829269.6545
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab\\RecipeList.prefab": {
+      "time": 1724411001324.667,
+      "uuid": "cf9bff87-d291-49f5-a30b-31f2e21b98b1"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab\\RecipeSearch.prefab.meta": {
+      "time": 1724379886139.9404
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab\\RecipeSearch.prefab": {
+      "time": 1724410999006.0981,
+      "uuid": "8a6b7b98-a19c-4122-a0f3-11cf6fbbcf34"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Material.meta": {
+      "time": 1724380791725.6118
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Material": {
+      "time": 1724380791722.6123,
+      "uuid": "a160297e-708c-4f42-ab64-f25edb45bdab"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\NavigationBar.ts.meta": {
+      "time": 1724401355061.3223
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\NavigationBar.ts": {
+      "time": 1724669519098.3525,
+      "uuid": "0fc39eac-836a-46a0-aa9a-456b648bd0fd"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\scene\\Recipes.meta": {
+      "time": 1724403665256.793
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\scene\\Recipes": {
+      "time": 1724509558955.9038,
+      "uuid": "af2c3ae8-8983-47dc-875b-cc2b9df906ac"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\scene\\Recipes\\RecipesHomeScene.scene.meta": {
+      "time": 1724378272685.161
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\scene\\Recipes\\RecipesHomeScene.scene": {
+      "time": 1724669624885.1436,
+      "uuid": "1b015c85-56e2-4613-8b33-729106000d8c"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab\\RecipeListitem.prefab.meta": {
+      "time": 1724406805123.5571
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab\\RecipeListitem.prefab": {
+      "time": 1724634729970.7874,
+      "uuid": "0102b48d-d713-4246-adeb-9ff7a94b4de9"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab\\IngredientButton.prefab.meta": {
+      "time": 1724479549960.4924
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab\\IngredientButton.prefab": {
+      "time": 1724487025508.661,
+      "uuid": "f12ea3c9-9b1a-4cd6-927e-13d1fa48afa5"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab\\CookingMethodButton.prefab.meta": {
+      "time": 1724480161065.0103
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab\\CookingMethodButton.prefab": {
+      "time": 1724480161063.003,
+      "uuid": "5083edbe-f9c2-4dbf-b48d-8456923bdef7"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\Home.meta": {
+      "time": 1724484476939.779
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\Home": {
+      "time": 1724484493025.4497,
+      "uuid": "55fbbf71-8961-40dd-98cb-2465f4cb4189"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\Home\\RecipesSearch.ts.meta": {
+      "time": 1724378790600.8198
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\Home\\RecipesSearch.ts": {
+      "time": 1724509329510.706,
+      "uuid": "1dc02a53-3e21-485b-a639-e3835203a667"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\IngredientSearch.meta": {
+      "time": 1724484659547.4834
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\IngredientSearch": {
+      "time": 1724494798176.0078,
+      "uuid": "1ccf6994-db12-4814-8e05-18c87a2a9f78"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\IngredientSearch\\IngredientSearch.ts.meta": {
+      "time": 1724465593788.8987
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\IngredientSearch\\IngredientSearch.ts": {
+      "time": 1724669436213.099,
+      "uuid": "e44063f7-8a02-43f7-8b84-cf169a0cbedf"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\Detail.meta": {
+      "time": 1724505973678.379
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\Detail": {
+      "time": 1724569075542.021,
+      "uuid": "e9b1d595-c628-468e-acfa-70336004353f"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\UIStackManager.ts.meta": {
+      "time": 1724499652063.483
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\UIStackManager.ts": {
+      "time": 1724570055147.8997,
+      "uuid": "cf8c4f6a-6d8d-4083-9e9f-9cdf35843320"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab\\RecipeDetail.prefab.meta": {
+      "time": 1724574178745.7158
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab\\RecipeDetail.prefab": {
+      "time": 1724669624028.9585,
+      "uuid": "104227a8-b031-4ce5-97d1-5132e67ab74c"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab\\RichText.prefab.meta": {
+      "time": 1724574928956.8533
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab\\RichText.prefab": {
+      "time": 1724640539718.478,
+      "uuid": "e633977b-10b9-4822-b955-363bf3f68216"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab\\FoodImage.prefab.meta": {
+      "time": 1724587748148.575
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab\\FoodImage.prefab": {
+      "time": 1724637892725.8545,
+      "uuid": "e712a9e9-0d9e-43d0-becb-c586f0ad5eda"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources.meta": {
+      "time": 1724590350487.9949
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources": {
+      "time": 1724656489878.2334,
+      "uuid": "4b9fad23-84c1-4834-a7e5-8ecf5543ba4d"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image.meta": {
+      "time": 1724585577486.6973
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg.meta": {
+      "time": 1724587603862.4978
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image": {
+      "time": 1724587608006.0437,
+      "uuid": "efd887d8-7524-45d1-aa8c-c3789ff8625c"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg": {
+      "time": 1724664297715.8,
+      "uuid": "f05e188b-ca62-4512-8cb5-781f702d914b"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\水蒸蛋.png.meta": {
+      "time": 1724585639641.2917
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\水蒸蛋.png": {
+      "time": 1724585614896.23,
+      "uuid": "28bb7645-0620-4ebd-8785-a069d37183e6"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\番茄炒蛋.png.meta": {
+      "time": 1724587586047.2246
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\番茄炒蛋.png": {
+      "time": 1724587562432.1821,
+      "uuid": "b920501a-2930-4b58-9863-83f5e6c422da"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\溏心蛋.png.meta": {
+      "time": 1724654692608.9036
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\溏心蛋.png": {
+      "time": 1724654379385.1467,
+      "uuid": "9bd3cc97-25b9-4173-baeb-0eb96739e7a5"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\温泉蛋.png.meta": {
+      "time": 1724655036549.7378
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\温泉蛋.png": {
+      "time": 1724654816949.5222,
+      "uuid": "8a84440e-e7c3-49f3-97a7-35ce19a2620b"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\水波蛋.png.meta": {
+      "time": 1724655431207.4998
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\水波蛋.png": {
+      "time": 1724655408313.8782,
+      "uuid": "5b696ff1-ad7d-4a55-8aec-a8c345db32d0"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\铺盖炸蛋.png.meta": {
+      "time": 1724656038991.2268
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\铺盖炸蛋.png": {
+      "time": 1724656022021.886,
+      "uuid": "07bda94b-0147-4cbe-867e-44b263c8794d"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\炸蛋.png.meta": {
+      "time": 1724655776495.8086
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\炸蛋.png": {
+      "time": 1724655752209.1504,
+      "uuid": "7d42684f-7ef1-4a74-94c4-1d735e69930d"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\鸡蛋蒜.png.meta": {
+      "time": 1724656787544.55
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\鸡蛋蒜.png": {
+      "time": 1724656756857.194,
+      "uuid": "90b9b11e-7ab4-4e69-8c8f-c6f132d4cb6f"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\东北鸡蛋酱.png.meta": {
+      "time": 1724657128816.6965
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\东北鸡蛋酱.png": {
+      "time": 1724657115802.6213,
+      "uuid": "7b1da7d1-8d6c-4765-921b-7b63cd5d403e"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\英式炒蛋.png.meta": {
+      "time": 1724657663881.2363
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\英式炒蛋.png": {
+      "time": 1724657650105.4878,
+      "uuid": "a4777cfb-50f1-487a-ab9f-16b452e13c8d"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\法式炒蛋.png.meta": {
+      "time": 1724657957282.616
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\法式炒蛋.png": {
+      "time": 1724657934210.3474,
+      "uuid": "2ec1e95d-7bf8-497d-becb-038c0d7331e2"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\茶叶蛋.png.meta": {
+      "time": 1724659415638.3667
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\茶叶蛋.png": {
+      "time": 1724659403587.369,
+      "uuid": "f60d4163-c2d6-4708-baf3-085fe5e232b7"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\泰式卤蛋.png.meta": {
+      "time": 1724659925012.1345
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\泰式卤蛋.png": {
+      "time": 1724659896682.074,
+      "uuid": "c57612f3-f62a-46ca-9286-a9ebdc715a0c"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\糖醋荷包蛋.png.meta": {
+      "time": 1724660532305.2883
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\糖醋荷包蛋.png": {
+      "time": 1724660517262.847,
+      "uuid": "d5eaab6b-9121-487c-bba4-14840cfdacd0"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\烤布丁.png.meta": {
+      "time": 1724661566425.8457
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\烤布丁.png": {
+      "time": 1724661556099.5652,
+      "uuid": "f74c6569-d829-4e0d-9697-45e0b2617e21"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\厚蛋烧.png.meta": {
+      "time": 1724662200939.1062
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\厚蛋烧.png": {
+      "time": 1724662189240.923,
+      "uuid": "2b85f8cb-a697-42c8-bcf8-f6bd861c5971"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\魔鬼蛋.png.meta": {
+      "time": 1724662561140.3672
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\魔鬼蛋.png": {
+      "time": 1724662546709.7092,
+      "uuid": "9210020e-c1f7-41c0-857b-fe86ce791b3f"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\赛螃蟹.png.meta": {
+      "time": 1724663217761.7966
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\赛螃蟹.png": {
+      "time": 1724663206504.3777,
+      "uuid": "f2935ae3-d326-477b-8338-7c565ae64c1f"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\苏格兰蛋.png.meta": {
+      "time": 1724663646420.082
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\苏格兰蛋.png": {
+      "time": 1724663632256.708,
+      "uuid": "24ebe5e6-94b1-4e5a-a92a-eb7d5f003e2d"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\班尼迪克蛋.png.meta": {
+      "time": 1724664297735.8035
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\班尼迪克蛋.png": {
+      "time": 1724664284209.8972,
+      "uuid": "dd14200a-701a-4797-9e83-8c17461cecc5"
+    }
+  },
+  "missing": {
+    "4cfdcce6-ce2e-45c9-b10e-d1b95a216b76": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\RecipeSearch.ts",
+      "time": 1724378460653.6924,
+      "removeTime": 1724378799707
+    },
+    "fec33f06-7a93-4bd4-9510-c41fe4ff43c3": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\RecipesGenerate.ts",
+      "time": 1724378588259.2527,
+      "removeTime": 1724378766761
+    },
+    "82edd278-eaa5-4574-ba60-971a192999e6": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\scene\\Recipes\\IngredientSearchScene.scene",
+      "time": 1724404423484.2234,
+      "removeTime": 1724416461620
+    },
+    "1b015c85-56e2-4613-8b33-729106000d8c": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\scene\\Recipes\\RecipesHome.scene",
+      "time": 1724403548158.1704,
+      "removeTime": 1724403685003
+    },
+    "8cc605a3-4949-4ad2-aa58-383805933f0f": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\scene\\Recipes\\RandomRecipeScene.scene",
+      "time": 1724403992569.3606,
+      "removeTime": 1724416461621
+    },
+    "fd136d50-5ab0-4185-9967-66f74cd331d7": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab\\RecipeListitem.prefab",
+      "time": 1724404884959.8892,
+      "removeTime": 1724406701246
+    },
+    "2d55d99d-8919-4b43-9b0f-55d7f1ffc7fd": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\RecipesList.ts",
+      "time": 1724379989471.3982,
+      "removeTime": 1724407847538
+    },
+    "b52b9e74-e33a-46ee-b815-21d936d292b4": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab\\NavigationBar.prefab",
+      "time": 1724414427148.0273,
+      "removeTime": 1724418112150
+    },
+    "1dc02a53-3e21-485b-a639-e3835203a667": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\RecipesSearch.ts",
+      "time": 1724422306851.68,
+      "removeTime": 1724484493027
+    },
+    "e44063f7-8a02-43f7-8b84-cf169a0cbedf": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\IngredientSearch.ts",
+      "time": 1724480300306.902,
+      "removeTime": 1724484665136
+    },
+    "2fcfaabc-93ac-448d-acea-49e1a5b7b250": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\IngredientSearch\\NewComponent.ts",
+      "time": 1724484689734.5696,
+      "removeTime": 1724484713291
+    },
+    "218d2522-be0e-490c-9079-2fa89348451f": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\IngredientSearch\\ListH.ts",
+      "time": 1724486468031.3904,
+      "removeTime": 1724494798182
+    },
+    "f52166bc-d788-4bca-97b2-aac10ac5e9ed": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Scene.ts",
+      "time": 1724499631829.1199,
+      "removeTime": 1724499644644
+    },
+    "164d6912-0ee1-4a25-88de-c9d3bba209a3": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\scene\\Recipes\\RecipeDetailScene.scene",
+      "time": 1724506178751.9307,
+      "removeTime": 1724509558961
+    },
+    "cf8c4f6a-6d8d-4083-9e9f-9cdf35843320": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\SceneStackManager.ts",
+      "time": 1724509685401.9734,
+      "removeTime": 1724565706604
+    },
+    "8e884296-ba48-46dc-afa1-9f1c79f2401f": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\Detail\\Return.ts",
+      "time": 1724569045422.9583,
+      "removeTime": 1724569075550
+    },
+    "b920501a-2930-4b58-9863-83f5e6c422da": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\image\\egg\\番茄炒蛋.png",
+      "time": 1724587562432.1821,
+      "removeTime": 1724590369717
+    },
+    "28bb7645-0620-4ebd-8785-a069d37183e6": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\image\\egg\\水蒸蛋.png",
+      "time": 1724585614896.23,
+      "removeTime": 1724590369716
+    },
+    "e712a9e9-0d9e-43d0-becb-c586f0ad5eda": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab\\foodImage.prefab",
+      "time": 1724587710850.3638,
+      "removeTime": 1724587748142
+    },
+    "efd887d8-7524-45d1-aa8c-c3789ff8625c": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\image",
+      "time": 1724587608006.0437,
+      "removeTime": 1724590369715
+    },
+    "f05e188b-ca62-4512-8cb5-781f702d914b": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\image\\egg",
+      "time": 1724587608006.0437,
+      "removeTime": 1724590369716
+    },
+    "8a84440e-e7c3-49f3-97a7-35ce19a2620b": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\温泉蛋.png",
+      "time": 1724654816949.5222,
+      "removeTime": 1724656489878
+    },
+    "5b696ff1-ad7d-4a55-8aec-a8c345db32d0": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\水波蛋.png",
+      "time": 1724655408313.8782,
+      "removeTime": 1724656489882
+    },
+    "07bda94b-0147-4cbe-867e-44b263c8794d": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\铺盖炸蛋.png",
+      "time": 1724656022021.886,
+      "removeTime": 1724656489883
+    },
+    "7d42684f-7ef1-4a74-94c4-1d735e69930d": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\炸蛋.png",
+      "time": 1724655752209.1504,
+      "removeTime": 1724656489884
+    }
+  }
+}

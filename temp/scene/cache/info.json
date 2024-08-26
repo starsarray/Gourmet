@@ -1,0 +1,14 @@
+{
+    "systemInfo": {
+        "arch": "x64",
+        "cpu": "AMD Ryzen 7 4800H with Radeon Graphics         ",
+        "version": "Windows 10 Pro"
+    },
+    "sceneListMap": {
+        "82edd278-eaa5-4574-ba60-971a192999e6": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\scene\\IngredientSearch.scene",
+        "8cc605a3-4949-4ad2-aa58-383805933f0f": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\scene\\RandomRecipe.scene",
+        "1b015c85-56e2-4613-8b33-729106000d8c": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\scene\\Recipes\\RecipesHomeScene.scene",
+        "164d6912-0ee1-4a25-88de-c9d3bba209a3": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\scene\\Recipes\\RecipeDetailScene.scene"
+    },
+    "deviceMd5": "7240f9c86d3f3cd3e39e22df55be3d32"
+}
