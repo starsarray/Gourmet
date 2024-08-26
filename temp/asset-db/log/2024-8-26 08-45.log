@@ -4092,3 +4092,16 @@
 2024-8-26 21:58:03-debug: asset-db:worker-effect-data-processing (1ms)
 2024-8-26 21:58:03-debug: asset-db:refresh-all-database (124ms)
 2024-8-26 21:58:03-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-8-26 22:44:47-debug: refresh db internal success
+2024-8-26 22:44:47-debug: refresh db assets success
+2024-8-26 22:44:47-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-8-26 22:44:47-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-8-26 22:44:47-debug: asset-db:refresh-all-database (114ms)
+2024-8-26 22:44:47-debug: asset-db:worker-effect-data-processing (1ms)
+2024-8-26 22:44:47-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2024-8-26 22:45:19-debug: refresh db internal success
+2024-8-26 22:45:19-debug: refresh db assets success
+2024-8-26 22:45:19-debug: Run asset db hook engine-extends:afterRefresh ...
+2024-8-26 22:45:19-debug: Run asset db hook engine-extends:afterRefresh success!
+2024-8-26 22:45:19-debug: asset-db:refresh-all-database (113ms)
+2024-8-26 22:45:19-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
