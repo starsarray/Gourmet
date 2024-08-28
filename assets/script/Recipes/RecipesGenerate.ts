@@ -343,20 +343,6 @@ export class RecipesGenerate extends Component {
         const invertedIndex: { [key: string]: Array<number> } = {};
 
         this.recipeData.recipes.forEach((recipe, index) => {
-            // 遍历食材
-            recipe.ingredients.forEach(ingredient => {
-                if (!invertedIndex[ingredient]) {
-                    invertedIndex[ingredient] = [];
-                }
-                invertedIndex[ingredient].push(index);
-            });
-            // 遍历配料
-            recipe.seasonings.forEach(seasoning => {
-                if (!invertedIndex[seasoning]) {
-                    invertedIndex[seasoning] = [];
-                }
-                invertedIndex[seasoning].push(index);
-            });
             // 将食谱名称拆分加入索引
             recipe.name.split('').forEach(char => {
                 if (!invertedIndex[char]) {
@@ -364,20 +350,34 @@ export class RecipesGenerate extends Component {
                 }
                 invertedIndex[char].push(index);
             });
-            // // 将食材拆分加入索引
-            // recipe.ingredients.split('').forEach(char => {
-            //     if (!invertedIndex[char]) {
-            //         invertedIndex[char] = [];
-            //     }
-            //     invertedIndex[char].push(index);
-            // });
-            // // 将配料拆分加入索引
-            // recipe.seasonings.split('').forEach(char => {
-            //     if (!invertedIndex[char]) {
-            //         invertedIndex[char] = [];
-            //     }
-            //     invertedIndex[char].push(index);
-            // });
+            // 遍历食材
+            recipe.ingredients.forEach(ingredient => {
+                if (!invertedIndex[ingredient]) {
+                    invertedIndex[ingredient] = [];
+                }
+                invertedIndex[ingredient].push(index);
+                 // 将食材拆分加入索引
+                ingredient.split('').forEach(char => {
+                    if (!invertedIndex[char]) {
+                        invertedIndex[char] = [];
+                    }
+                    invertedIndex[char].push(index);
+                });
+            });
+            // 遍历配料
+            recipe.seasonings.forEach(seasoning => {
+                if (!invertedIndex[seasoning]) {
+                    invertedIndex[seasoning] = [];
+                }
+                invertedIndex[seasoning].push(index);
+                // 将配料拆分加入索引
+                seasoning.split('').forEach(char => {
+                    if (!invertedIndex[char]) {
+                        invertedIndex[char] = [];
+                    }
+                    invertedIndex[char].push(index);
+                });
+            });
         });
 
         return invertedIndex;

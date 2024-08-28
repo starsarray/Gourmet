@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 106143553.57440007,
+      "mTimestamp": 108675752.29900002,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1192,7 +1192,7 @@
     },
     "file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts": {
       "mTimestamp": {
-        "mtime": 1724828601161.9033,
+        "mtime": 1724831135820.2495,
         "uuid": "50964c2a-dd6a-42cc-87ab-45f04a5cbb54"
       },
       "chunkId": "8f3ce5611f9c0a1904485c8d4b41740aa562c308",
