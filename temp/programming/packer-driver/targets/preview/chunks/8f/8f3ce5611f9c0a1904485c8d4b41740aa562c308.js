@@ -237,13 +237,13 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
               invertedIndex[ingredient].push(index);
             }); // 遍历配料
 
-            recipe.seasonings.forEach(ingredient => {
-              if (!invertedIndex[ingredient]) {
-                invertedIndex[ingredient] = [];
+            recipe.seasonings.forEach(seasoning => {
+              if (!invertedIndex[seasoning]) {
+                invertedIndex[seasoning] = [];
               }
 
-              invertedIndex[ingredient].push(index);
-            }); // 将食谱名称也加入索引
+              invertedIndex[seasoning].push(index);
+            }); // 将食谱名称拆分加入索引
 
             recipe.name.split('').forEach(char => {
               if (!invertedIndex[char]) {
@@ -251,7 +251,20 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
               }
 
               invertedIndex[char].push(index);
-            });
+            }); // // 将食材拆分加入索引
+            // recipe.ingredients.split('').forEach(char => {
+            //     if (!invertedIndex[char]) {
+            //         invertedIndex[char] = [];
+            //     }
+            //     invertedIndex[char].push(index);
+            // });
+            // // 将配料拆分加入索引
+            // recipe.seasonings.split('').forEach(char => {
+            //     if (!invertedIndex[char]) {
+            //         invertedIndex[char] = [];
+            //     }
+            //     invertedIndex[char].push(index);
+            // });
           });
           return invertedIndex;
         } // 搜索功能
@@ -260,6 +273,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         searchRecipesByKeyword(keyword) {
           var invertedIndex = this.buildInvertedIndex();
           var resultIndexes = []; // 遍历每个字符进行查找
+
+          if (invertedIndex[keyword]) {
+            resultIndexes.push(...invertedIndex[keyword]);
+          }
 
           keyword.split('').forEach(char => {
             if (invertedIndex[char]) {

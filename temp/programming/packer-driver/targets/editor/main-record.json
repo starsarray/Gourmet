@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 8554.054300010204,
+      "mTimestamp": 8786.866500020027,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 10273.33109998703,
+      "mTimestamp": 106143553.57440007,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1192,7 +1192,7 @@
     },
     "file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts": {
       "mTimestamp": {
-        "mtime": 1724681197000,
+        "mtime": 1724828601161.9033,
         "uuid": "50964c2a-dd6a-42cc-87ab-45f04a5cbb54"
       },
       "chunkId": "8f3ce5611f9c0a1904485c8d4b41740aa562c308",
@@ -1495,7 +1495,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1724684056413,
+      "mTimestamp": 1724722469512,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",

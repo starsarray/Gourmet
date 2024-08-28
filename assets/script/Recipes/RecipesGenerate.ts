@@ -351,19 +351,33 @@ export class RecipesGenerate extends Component {
                 invertedIndex[ingredient].push(index);
             });
             // 遍历配料
-            recipe.seasonings.forEach(ingredient => {
-                if (!invertedIndex[ingredient]) {
-                    invertedIndex[ingredient] = [];
+            recipe.seasonings.forEach(seasoning => {
+                if (!invertedIndex[seasoning]) {
+                    invertedIndex[seasoning] = [];
                 }
-                invertedIndex[ingredient].push(index);
+                invertedIndex[seasoning].push(index);
             });
-            // 将食谱名称也加入索引
+            // 将食谱名称拆分加入索引
             recipe.name.split('').forEach(char => {
                 if (!invertedIndex[char]) {
                     invertedIndex[char] = [];
                 }
                 invertedIndex[char].push(index);
             });
+            // // 将食材拆分加入索引
+            // recipe.ingredients.split('').forEach(char => {
+            //     if (!invertedIndex[char]) {
+            //         invertedIndex[char] = [];
+            //     }
+            //     invertedIndex[char].push(index);
+            // });
+            // // 将配料拆分加入索引
+            // recipe.seasonings.split('').forEach(char => {
+            //     if (!invertedIndex[char]) {
+            //         invertedIndex[char] = [];
+            //     }
+            //     invertedIndex[char].push(index);
+            // });
         });
 
         return invertedIndex;
@@ -375,12 +389,14 @@ export class RecipesGenerate extends Component {
         const resultIndexes: Array<number> = [];
 
         // 遍历每个字符进行查找
+        if (invertedIndex[keyword]) {
+            resultIndexes.push(...invertedIndex[keyword]);
+        }
         keyword.split('').forEach(char => {
             if (invertedIndex[char]) {
                 resultIndexes.push(...invertedIndex[char]);
             }
         });
-
         // 去重
         const uniqueIndexes = Array.from(new Set(resultIndexes));
         return uniqueIndexes.map(index => this.recipeData.recipes[index]);
