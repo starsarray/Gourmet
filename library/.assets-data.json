@@ -17,6 +17,9 @@
         "0102b48d-d713-4246-adeb-9ff7a94b4de9",
         "f12ea3c9-9b1a-4cd6-927e-13d1fa48afa5",
         "5083edbe-f9c2-4dbf-b48d-8456923bdef7",
+        "f12a23c4-b924-4322-a260-3d982428f1e8@f9941",
+        "28765e2f-040a-4c65-8e8c-f9d0bb79d863@f9941",
+        "77c5a779-cd94-4a14-a042-a9d92bdeabb3",
         "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
       ],
       "dependScripts": [
@@ -754,6 +757,19 @@
       "depends": [
         "dd14200a-701a-4797-9e83-8c17461cecc5@6c48a"
       ]
+    },
+    "versionCode": 1
+  },
+  "77c5a779-cd94-4a14-a042-a9d92bdeabb3": {
+    "url": "db://assets/Prefab/RecipeButton.prefab",
+    "value": {
+      "depends": [
+        "45828f25-b50d-4c52-a591-e19491a62b8c@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941"
+      ],
+      "dependScripts": []
     },
     "versionCode": 1
   }

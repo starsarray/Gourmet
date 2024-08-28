@@ -378,6 +378,8 @@ export class RecipesGenerate extends Component {
                     invertedIndex[char].push(index);
                 });
             });
+            // todo 解决重复索引
+            
         });
 
         return invertedIndex;
