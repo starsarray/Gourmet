@@ -302,3 +302,43 @@ Feature changed: false
 18:04:19 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts.
 18:04:19 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts.
 18:04:19 debug: Target(preview) ends with cost 163.25879991054535ms.
+19:01:38 debug: Dispatch build request for time accumulated 1 asset changes.
+19:01:38 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+19:01:38 debug: Target(editor) build started.
+19:01:38 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:35:30 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:32:50 GMT+0800 (中国标准时间)
+19:01:38 debug: Inspect cce:/internal/x/prerequisite-imports
+19:01:38 debug: Resolve file:///D:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+19:01:38 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts.
+19:01:38 debug: Detected change: file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts. Last mtime: Thu Aug 29 2024 18:04:12 GMT+0800 (中国标准时间)@0fc39eac-836a-46a0-aa9a-456b648bd0fd, Current mtime: Thu Aug 29 2024 19:01:36 GMT+0800 (中国标准时间)@0fc39eac-836a-46a0-aa9a-456b648bd0fd
+19:01:38 debug: Inspect file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts
+19:01:38 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts as cce:/internal/code-quality/cr.mjs.
+19:01:38 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts as cce:/internal/x/cc.
+19:01:38 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts as cce:/internal/x/cc.
+19:01:38 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts as cce:/internal/x/cc.
+19:01:38 debug: Resolve ../UIStackManager from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts.
+19:01:38 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts.
+19:01:38 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts.
+19:01:38 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Random/Random.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Random/Random.ts.
+19:01:38 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts.
+19:01:38 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts.
+19:01:38 debug: Target(editor) ends with cost 173.2755000591278ms.
+19:01:38 debug: Target(preview) build started.
+19:01:38 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:35:31 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 10:32:50 GMT+0800 (中国标准时间)
+19:01:38 debug: Inspect cce:/internal/x/prerequisite-imports
+19:01:38 debug: Resolve file:///D:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+19:01:38 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts.
+19:01:38 debug: Detected change: file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts. Last mtime: Thu Aug 29 2024 18:04:12 GMT+0800 (中国标准时间)@0fc39eac-836a-46a0-aa9a-456b648bd0fd, Current mtime: Thu Aug 29 2024 19:01:36 GMT+0800 (中国标准时间)@0fc39eac-836a-46a0-aa9a-456b648bd0fd
+19:01:38 debug: Inspect file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts
+19:01:38 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts as cce:/internal/code-quality/cr.mjs.
+19:01:38 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts as cce:/internal/x/cc.
+19:01:38 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts as cce:/internal/x/cc.
+19:01:38 debug: Resolve cc from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts as cce:/internal/x/cc.
+19:01:38 debug: Resolve ../UIStackManager from file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts.
+19:01:38 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts.
+19:01:38 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts.
+19:01:38 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Random/Random.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Random/Random.ts.
+19:01:38 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts.
+19:01:38 debug: Resolve file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts from cce:/internal/x/prerequisite-imports as file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts.
+19:01:38 debug: Target(preview) ends with cost 170.19949996471405ms.
