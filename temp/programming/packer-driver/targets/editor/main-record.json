@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 8785.955200076103,
+      "mTimestamp": 8369.738900065422,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 26272255.681900024,
+      "mTimestamp": 5730940.725900054,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1433,7 +1433,7 @@
     },
     "file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts": {
       "mTimestamp": {
-        "mtime": 1724681197000,
+        "mtime": 1724925852270.2473,
         "uuid": "0fc39eac-836a-46a0-aa9a-456b648bd0fd"
       },
       "chunkId": "a24b3fb023747bf4a2daf97ab7fe936e04031662",
@@ -1453,11 +1453,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 159
+              "column": 164
             },
             "end": {
               "line": 1,
-              "column": 163
+              "column": 168
             }
           }
         },
@@ -1516,7 +1516,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1724892768411,
+      "mTimestamp": 1724920128102,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",

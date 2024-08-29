@@ -1,4 +1,4 @@
-import { _decorator, Button, Color, color, Component, director, instantiate, Label, Node, Prefab, resources, RichText, Sprite, SpriteFrame, UITransform } from 'cc';
+import { _decorator, Button, Color, color, Component, director, instantiate, Label, Node, Prefab, resources, RichText, Sprite, SpriteFrame, sys, UITransform } from 'cc';
 import { UIStackManager } from '../UIStackManager';
 const { ccclass, property } = _decorator;
 
@@ -48,6 +48,7 @@ export class NavigationBar extends Component {
         UIStackManager.instance.popUI();
         UIStackManager.instance.pushUI(this.homePanel);
         this.homePanel.active = true;
+        this.navBar.active = true;
         this.ingredientSearchPanel.active = false;
         this.randomRecipePanel.active = false;
         this.highlightButton(this.homeButton);
@@ -58,6 +59,7 @@ export class NavigationBar extends Component {
         UIStackManager.instance.popUI();
         UIStackManager.instance.pushUI(this.ingredientSearchPanel);
         this.homePanel.active = false;
+        this.navBar.active = true;
         this.ingredientSearchPanel.active = true;
         this.randomRecipePanel.active = false;
         this.highlightButton(this.ingredientSearchButton);
@@ -68,6 +70,7 @@ export class NavigationBar extends Component {
         UIStackManager.instance.popUI();
         UIStackManager.instance.pushUI(this.randomRecipePanel);
         this.homePanel.active = false;
+        this.navBar.active = true;
         this.ingredientSearchPanel.active = false;
         this.randomRecipePanel.active = true;
         this.highlightButton(this.randomRecipeButton);
@@ -78,6 +81,7 @@ export class NavigationBar extends Component {
         this.content.removeAllChildren();
         UIStackManager.instance.pushUI(this.detailPage);
         this.detailPage.active = true;
+        this.navBar.active = false;
         this.homePanel.active = false;
         this.ingredientSearchPanel.active = false;
         this.randomRecipePanel.active = false;
@@ -122,8 +126,11 @@ export class NavigationBar extends Component {
         Rtext1.on(Node.EventType.TOUCH_END, (event) => {
             const link = this.extractLinkFromRichText(Rtext1.getComponent(RichText).string);
             if (link) {
-                console.log("超链接被点击:", link);
-                if (typeof window !== 'undefined') {
+                if (sys.isMobile) {
+                    // 在移动设备上使用 window.location.href
+                    window.location.href = link;
+                } else {
+                    // 在桌面设备上使用 window.open
                     window.open(link, '_blank');
                 }
             }
@@ -147,6 +154,7 @@ export class NavigationBar extends Component {
     // 返回上一个UI
     goBackToPreviousUI() {
         this.detailPage.active = false;
+        this.navBar.active = true;
         this.homePanel.active = false;
         this.ingredientSearchPanel.active = false;
         this.randomRecipePanel.active = false;

@@ -915,7 +915,7 @@
     "_left": 0,
     "_right": 0,
     "_top": 0,
-    "_bottom": 0,
+    "_bottom": 1030,
     "_horizontalCenter": 0,
     "_verticalCenter": 0,
     "_isAbsLeft": true,
@@ -925,9 +925,9 @@
     "_isAbsHorizontalCenter": true,
     "_isAbsVerticalCenter": true,
     "_originalWidth": 270,
-    "_originalHeight": 0,
+    "_originalHeight": 250,
     "_alignMode": 2,
-    "_lockFlags": 41,
+    "_lockFlags": 45,
     "_id": ""
   },
   {

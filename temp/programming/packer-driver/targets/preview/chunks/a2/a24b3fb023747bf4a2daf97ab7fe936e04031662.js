@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Button, Color, Component, instantiate, Label, Node, Prefab, resources, RichText, Sprite, SpriteFrame, UITransform, UIStackManager, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _crd, ccclass, property, NavigationBar;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Button, Color, Component, instantiate, Label, Node, Prefab, resources, RichText, Sprite, SpriteFrame, sys, UITransform, UIStackManager, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _crd, ccclass, property, NavigationBar;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -32,6 +32,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       RichText = _cc.RichText;
       Sprite = _cc.Sprite;
       SpriteFrame = _cc.SpriteFrame;
+      sys = _cc.sys;
       UITransform = _cc.UITransform;
     }, function (_unresolved_2) {
       UIStackManager = _unresolved_2.UIStackManager;
@@ -41,7 +42,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
       _cclegacy._RF.push({}, "0fc396sg2pGoKqaRWtki9D9", "NavigationBar", undefined);
 
-      __checkObsolete__(['_decorator', 'Button', 'Color', 'color', 'Component', 'director', 'instantiate', 'Label', 'Node', 'Prefab', 'resources', 'RichText', 'Sprite', 'SpriteFrame', 'UITransform']);
+      __checkObsolete__(['_decorator', 'Button', 'Color', 'color', 'Component', 'director', 'instantiate', 'Label', 'Node', 'Prefab', 'resources', 'RichText', 'Sprite', 'SpriteFrame', 'sys', 'UITransform']);
 
       ({
         ccclass,
@@ -97,6 +98,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             error: Error()
           }), UIStackManager) : UIStackManager).instance.pushUI(this.homePanel);
           this.homePanel.active = true;
+          this.navBar.active = true;
           this.ingredientSearchPanel.active = false;
           this.randomRecipePanel.active = false;
           this.highlightButton(this.homeButton);
@@ -111,6 +113,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             error: Error()
           }), UIStackManager) : UIStackManager).instance.pushUI(this.ingredientSearchPanel);
           this.homePanel.active = false;
+          this.navBar.active = true;
           this.ingredientSearchPanel.active = true;
           this.randomRecipePanel.active = false;
           this.highlightButton(this.ingredientSearchButton);
@@ -125,6 +128,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             error: Error()
           }), UIStackManager) : UIStackManager).instance.pushUI(this.randomRecipePanel);
           this.homePanel.active = false;
+          this.navBar.active = true;
           this.ingredientSearchPanel.active = false;
           this.randomRecipePanel.active = true;
           this.highlightButton(this.randomRecipeButton);
@@ -138,6 +142,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             error: Error()
           }), UIStackManager) : UIStackManager).instance.pushUI(this.detailPage);
           this.detailPage.active = true;
+          this.navBar.active = false;
           this.homePanel.active = false;
           this.ingredientSearchPanel.active = false;
           this.randomRecipePanel.active = false; // 实例化节点
@@ -185,9 +190,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             var link = this.extractLinkFromRichText(Rtext1.getComponent(RichText).string);
 
             if (link) {
-              console.log("超链接被点击:", link);
-
-              if (typeof window !== 'undefined') {
+              if (sys.isMobile) {
+                // 在移动设备上使用 window.location.href
+                window.location.href = link;
+              } else {
+                // 在桌面设备上使用 window.open
                 window.open(link, '_blank');
               }
             }
@@ -213,6 +220,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
         goBackToPreviousUI() {
           this.detailPage.active = false;
+          this.navBar.active = true;
           this.homePanel.active = false;
           this.ingredientSearchPanel.active = false;
           this.randomRecipePanel.active = false;

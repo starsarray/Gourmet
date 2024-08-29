@@ -6,9 +6,71 @@
   "common": {
     "polyfills": {
       "asyncFunctions": true
-    }
+    },
+    "buildPath": "project://build",
+    "outputName": "android",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "android"
   },
   "BuildTaskManager": {
-    "taskMap": {}
+    "taskMap": {
+      "1724919314503": {
+        "type": "build",
+        "id": "1724919314503",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2024-8-29 18:05:04 build success in 8 s!",
+        "detailMessage": "// ---- build task cocos-service：onAfterCompressSettings ----\r",
+        "options": {
+          "name": "Gourmet",
+          "server": "",
+          "platform": "android",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            },
+            "includeModules": {
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting",
+              "gfx-webgl2": "off"
+            }
+          },
+          "nativeCodeBundleMode": "wasm",
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "1b015c85-56e2-4613-8b33-729106000d8c",
+          "outputName": "android",
+          "taskName": "android",
+          "scenes": [
+            {
+              "url": "db://assets/scene/Recipes/RecipesHomeScene.scene",
+              "uuid": "1b015c85-56e2-4613-8b33-729106000d8c"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "logDest": "project://temp/builder/log/android2024-8-29 16-15.log"
+        },
+        "time": "2024-8-29 18:04:55",
+        "dirty": false
+      }
+    }
   }
 }
