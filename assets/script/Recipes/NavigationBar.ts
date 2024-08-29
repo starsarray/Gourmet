@@ -126,12 +126,11 @@ export class NavigationBar extends Component {
         Rtext1.on(Node.EventType.TOUCH_END, (event) => {
             const link = this.extractLinkFromRichText(Rtext1.getComponent(RichText).string);
             if (link) {
-                if (sys.isMobile) {
-                    // 在移动设备上使用 window.location.href
-                    window.location.href = link;
-                } else {
-                    // 在桌面设备上使用 window.open
-                    window.open(link, '_blank');
+                if (link) {
+                    console.log("超链接被点击:", link);
+                    if (typeof window !== 'undefined') {
+                        sys.openURL(link);  // 使用 cc.sys.openURL 进行链接跳转
+                    }
                 }
             }
         });

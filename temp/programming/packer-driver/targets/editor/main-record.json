@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 5730940.725900054,
+      "mTimestamp": 9170393.356600046,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1433,7 +1433,7 @@
     },
     "file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts": {
       "mTimestamp": {
-        "mtime": 1724925852270.2473,
+        "mtime": 1724929296149.0361,
         "uuid": "0fc39eac-836a-46a0-aa9a-456b648bd0fd"
       },
       "chunkId": "a24b3fb023747bf4a2daf97ab7fe936e04031662",
