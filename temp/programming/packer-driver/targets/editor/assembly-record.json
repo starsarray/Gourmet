@@ -331,6 +331,32 @@
       },
       "timestamp": 1724683861871
     },
+    "8f3ce5611f9c0a1904485c8d4b41740aa562c308": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "6a5019a719a9014c047e67aa1cf34453ab8392ce"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "a24b3fb023747bf4a2daf97ab7fe936e04031662"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1724852215047
+    },
     "93ba276ea7b26ffcdc433fab14afc1ed6f05647b": {
       "imports": {
         "__unresolved_0": {
@@ -544,11 +570,11 @@
           "messages": []
         }
       },
-      "timestamp": 1724722478387
+      "timestamp": 1724892777318
     },
     "6a5019a719a9014c047e67aa1cf34453ab8392ce": {
       "imports": {},
-      "timestamp": 1724722478451
+      "timestamp": 1724892777361
     },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
@@ -583,11 +609,18 @@
         "__unresolved_4": {
           "resolved": {
             "type": "chunk",
-            "id": "8f3ce5611f9c0a1904485c8d4b41740aa562c308"
+            "id": "489c3d554917db32eabeddc577c24220e47b726a"
           },
           "messages": []
         },
         "__unresolved_5": {
+          "resolved": {
+            "type": "chunk",
+            "id": "8f3ce5611f9c0a1904485c8d4b41740aa562c308"
+          },
+          "messages": []
+        },
+        "__unresolved_6": {
           "resolved": {
             "type": "chunk",
             "id": "818fd128b0eae1c74b0e1fdb9ec80d7e3473add6"
@@ -595,9 +628,9 @@
           "messages": []
         }
       },
-      "timestamp": 1724852214974
+      "timestamp": 1724918869891
     },
-    "8f3ce5611f9c0a1904485c8d4b41740aa562c308": {
+    "489c3d554917db32eabeddc577c24220e47b726a": {
       "imports": {
         "__unresolved_0": {
           "resolved": {
@@ -607,6 +640,13 @@
           "messages": []
         },
         "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "8f3ce5611f9c0a1904485c8d4b41740aa562c308"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
           "resolved": {
             "type": "chunk",
             "id": "a24b3fb023747bf4a2daf97ab7fe936e04031662"
@@ -621,7 +661,7 @@
           "messages": []
         }
       },
-      "timestamp": 1724852215047
+      "timestamp": 1724918869945
     }
   },
   "entries": {
@@ -631,6 +671,7 @@
     "file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts": "243fa753b6a33206155efff325bbdefd422f92c6",
     "file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts": "c8cd0e86362df7945a17acfe251e308f7e8b6938",
     "file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts": "a24b3fb023747bf4a2daf97ab7fe936e04031662",
+    "file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Random/Random.ts": "489c3d554917db32eabeddc577c24220e47b726a",
     "file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts": "8f3ce5611f9c0a1904485c8d4b41740aa562c308",
     "file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts": "818fd128b0eae1c74b0e1fdb9ec80d7e3473add6"
   }

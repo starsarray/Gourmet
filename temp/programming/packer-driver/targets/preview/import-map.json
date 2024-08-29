@@ -6,6 +6,7 @@
     "file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Home/RecipesSearch.ts": "./chunks/24/243fa753b6a33206155efff325bbdefd422f92c6.js",
     "file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts": "./chunks/c8/c8cd0e86362df7945a17acfe251e308f7e8b6938.js",
     "file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/NavigationBar.ts": "./chunks/a2/a24b3fb023747bf4a2daf97ab7fe936e04031662.js",
+    "file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/Random/Random.ts": "./chunks/48/489c3d554917db32eabeddc577c24220e47b726a.js",
     "file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts": "./chunks/8f/8f3ce5611f9c0a1904485c8d4b41740aa562c308.js",
     "file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/UIStackManager.ts": "./chunks/81/818fd128b0eae1c74b0e1fdb9ec80d7e3473add6.js"
   },
@@ -36,8 +37,9 @@
       "__unresolved_1": "./chunks/24/243fa753b6a33206155efff325bbdefd422f92c6.js",
       "__unresolved_2": "./chunks/c8/c8cd0e86362df7945a17acfe251e308f7e8b6938.js",
       "__unresolved_3": "./chunks/a2/a24b3fb023747bf4a2daf97ab7fe936e04031662.js",
-      "__unresolved_4": "./chunks/8f/8f3ce5611f9c0a1904485c8d4b41740aa562c308.js",
-      "__unresolved_5": "./chunks/81/818fd128b0eae1c74b0e1fdb9ec80d7e3473add6.js"
+      "__unresolved_4": "./chunks/48/489c3d554917db32eabeddc577c24220e47b726a.js",
+      "__unresolved_5": "./chunks/8f/8f3ce5611f9c0a1904485c8d4b41740aa562c308.js",
+      "__unresolved_6": "./chunks/81/818fd128b0eae1c74b0e1fdb9ec80d7e3473add6.js"
     },
     "./chunks/81/818fd128b0eae1c74b0e1fdb9ec80d7e3473add6.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
@@ -50,6 +52,12 @@
     "./chunks/a2/a24b3fb023747bf4a2daf97ab7fe936e04031662.js": {
       "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
       "__unresolved_1": "./chunks/81/818fd128b0eae1c74b0e1fdb9ec80d7e3473add6.js",
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/48/489c3d554917db32eabeddc577c24220e47b726a.js": {
+      "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
+      "__unresolved_1": "./chunks/8f/8f3ce5611f9c0a1904485c8d4b41740aa562c308.js",
+      "__unresolved_2": "./chunks/a2/a24b3fb023747bf4a2daf97ab7fe936e04031662.js",
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/c8/c8cd0e86362df7945a17acfe251e308f7e8b6938.js": {

@@ -17,16 +17,16 @@
         "0102b48d-d713-4246-adeb-9ff7a94b4de9",
         "f12ea3c9-9b1a-4cd6-927e-13d1fa48afa5",
         "5083edbe-f9c2-4dbf-b48d-8456923bdef7",
-        "f12a23c4-b924-4322-a260-3d982428f1e8@f9941",
-        "28765e2f-040a-4c65-8e8c-f9d0bb79d863@f9941",
-        "77c5a779-cd94-4a14-a042-a9d92bdeabb3",
+        "b8a94dfa-f2a8-4dc7-804b-01c62043ea86@f9941",
+        "9d410fdd-b286-4add-a382-b63d56e4b362",
         "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
       ],
       "dependScripts": [
         "0fc39eac-836a-46a0-aa9a-456b648bd0fd",
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
         "e44063f7-8a02-43f7-8b84-cf169a0cbedf",
-        "50964c2a-dd6a-42cc-87ab-45f04a5cbb54"
+        "50964c2a-dd6a-42cc-87ab-45f04a5cbb54",
+        "182c8d57-8416-445d-9efa-1aed5727296c"
       ]
     },
     "versionCode": 1
@@ -771,6 +771,159 @@
       ],
       "dependScripts": []
     },
+    "versionCode": 1
+  },
+  "492dc179-efdb-45ad-8f8c-8cfa75e17800": {
+    "url": "db://assets/Material/brightretrobuttons.svg",
+    "value": {},
+    "versionCode": 1
+  },
+  "b3b85290-d8ee-4776-b120-02662ada7936": {
+    "url": "db://assets/Material/brightretrobuttons.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "b3b85290-d8ee-4776-b120-02662ada7936@6c48a": {
+    "url": "db://assets/Material/brightretrobuttons.png@6c48a",
+    "value": {
+      "depends": [
+        "b3b85290-d8ee-4776-b120-02662ada7936"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b3b85290-d8ee-4776-b120-02662ada7936@f9941": {
+    "url": "db://assets/Material/brightretrobuttons.png@f9941",
+    "value": {
+      "depends": [
+        "b3b85290-d8ee-4776-b120-02662ada7936@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b8a94dfa-f2a8-4dc7-804b-01c62043ea86": {
+    "url": "db://assets/Material/1button.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b8a94dfa-f2a8-4dc7-804b-01c62043ea86@6c48a": {
+    "url": "db://assets/Material/1button.png@6c48a",
+    "value": {
+      "depends": [
+        "b8a94dfa-f2a8-4dc7-804b-01c62043ea86"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b8a94dfa-f2a8-4dc7-804b-01c62043ea86@f9941": {
+    "url": "db://assets/Material/1button.png@f9941",
+    "value": {
+      "depends": [
+        "b8a94dfa-f2a8-4dc7-804b-01c62043ea86@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f21f846b-dbcc-4b53-a5f1-da798f7b5d33": {
+    "url": "db://assets/Material/Anonymous_led_rounded_h_yellow.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f21f846b-dbcc-4b53-a5f1-da798f7b5d33@6c48a": {
+    "url": "db://assets/Material/Anonymous_led_rounded_h_yellow.png@6c48a",
+    "value": {
+      "depends": [
+        "f21f846b-dbcc-4b53-a5f1-da798f7b5d33"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f21f846b-dbcc-4b53-a5f1-da798f7b5d33@f9941": {
+    "url": "db://assets/Material/Anonymous_led_rounded_h_yellow.png@f9941",
+    "value": {
+      "depends": [
+        "f21f846b-dbcc-4b53-a5f1-da798f7b5d33@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "430ce166-11d3-4e70-a9fc-947a8c992fd7": {
+    "url": "db://assets/Material/Anonymous_button1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "430ce166-11d3-4e70-a9fc-947a8c992fd7@6c48a": {
+    "url": "db://assets/Material/Anonymous_button1.png@6c48a",
+    "value": {
+      "depends": [
+        "430ce166-11d3-4e70-a9fc-947a8c992fd7"
+      ]
+    },
+    "versionCode": 1
+  },
+  "430ce166-11d3-4e70-a9fc-947a8c992fd7@f9941": {
+    "url": "db://assets/Material/Anonymous_button1.png@f9941",
+    "value": {
+      "depends": [
+        "430ce166-11d3-4e70-a9fc-947a8c992fd7@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c52e8ce8-37d3-42b2-8793-4b5f3ac3cbd0": {
+    "url": "db://assets/Material/Anonymous_led_rounded_h_green.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c52e8ce8-37d3-42b2-8793-4b5f3ac3cbd0@6c48a": {
+    "url": "db://assets/Material/Anonymous_led_rounded_h_green.png@6c48a",
+    "value": {
+      "depends": [
+        "c52e8ce8-37d3-42b2-8793-4b5f3ac3cbd0"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c52e8ce8-37d3-42b2-8793-4b5f3ac3cbd0@f9941": {
+    "url": "db://assets/Material/Anonymous_led_rounded_h_green.png@f9941",
+    "value": {
+      "depends": [
+        "c52e8ce8-37d3-42b2-8793-4b5f3ac3cbd0@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "311818c4-4857-4b1b-9efd-a76a206ff814": {
+    "url": "db://assets/Prefab/RandomRecipe",
+    "value": {},
+    "versionCode": 1
+  },
+  "9d410fdd-b286-4add-a382-b63d56e4b362": {
+    "url": "db://assets/Prefab/RandomRecipe/RecipeButton.prefab",
+    "value": {
+      "depends": [
+        "24a704da-2867-446d-8d1a-5e920c75e09d@f9941"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "aac3109c-c7f6-4446-bead-bba694c524a5": {
+    "url": "db://assets/script/Recipes/Random",
+    "value": {},
+    "versionCode": 1
+  },
+  "182c8d57-8416-445d-9efa-1aed5727296c": {
+    "url": "db://assets/script/Recipes/Random/Random.ts",
+    "value": {},
     "versionCode": 1
   }
 }
