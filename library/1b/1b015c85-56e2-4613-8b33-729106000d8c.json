@@ -1476,7 +1476,7 @@
         "__id__": 65
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 104
@@ -2709,7 +2709,7 @@
     ],
     "value": {
       "__type__": "cc.Size",
-      "width": 689,
+      "width": 680,
       "height": 180
     }
   },
@@ -5174,7 +5174,7 @@
         "__id__": 201
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 205
