@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 9147.415799975395,
+      "mTimestamp": 8193.683799982071,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 11017.14359998703,
+      "mTimestamp": 5699741.197199941,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1213,7 +1213,7 @@
     },
     "file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/RecipesGenerate.ts": {
       "mTimestamp": {
-        "mtime": 1724847255055.3777,
+        "mtime": 1725637250795.4182,
         "uuid": "50964c2a-dd6a-42cc-87ab-45f04a5cbb54"
       },
       "chunkId": "8f3ce5611f9c0a1904485c8d4b41740aa562c308",
@@ -1516,7 +1516,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1725636860921,
+      "mTimestamp": 1725684666142,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -1692,7 +1692,7 @@
     },
     "file:///D:/ProgramData/cocos/workplace/Gourmet/assets/script/Recipes/IngredientSearch/IngredientSearch.ts": {
       "mTimestamp": {
-        "mtime": 1724681197000,
+        "mtime": 1725690364355.9436,
         "uuid": "e44063f7-8a02-43f7-8b84-cf169a0cbedf"
       },
       "chunkId": "c8cd0e86362df7945a17acfe251e308f7e8b6938",
@@ -1712,11 +1712,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 129
+              "column": 140
             },
             "end": {
               "line": 1,
-              "column": 133
+              "column": 144
             }
           }
         },

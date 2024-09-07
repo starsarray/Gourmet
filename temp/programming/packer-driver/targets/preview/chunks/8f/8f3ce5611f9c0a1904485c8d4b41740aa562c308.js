@@ -190,7 +190,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
               cooking_methods: ["锅"],
               image: "image/egg/魔鬼蛋/spriteFrame",
               link: '<color=#00E0FF>观看视频:</color>' + '<a href="https://www.bilibili.com/video/BV1TT4y127vu/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">' + '<color=#FF0000>魔鬼蛋</color></a><br/>',
-              details: "    西餐中一种比较另类的鸡蛋沙拉<br/>" + "<br/>1.全熟蛋对半切开取出蛋黄<br/>" + "<br/>2.蛋黄与各种酱料搅拌后加入裱花袋<br/>" + "<br/>3.裱花袋挤入开始对半的蛋白船中<br/>" + "<br/>4.最后撒上一点烟熏辣椒粉<br/>" + "<br/>5.两面炸至金黄色出锅并撒上胡椒粉提味<br/>"
+              details: "    西餐中一种比较另类的鸡蛋沙拉<br/>" + "<br/>1.全熟蛋对半切开取出蛋黄<br/>" + "<br/>2.蛋黄与各种酱料搅拌后加入裱花袋<br/>" + "<br/>3.裱花袋挤入开始对半的蛋白船中<br/>" + "<br/>4.最后撒上一点烟熏辣椒粉<br/>"
             }, {
               name: "赛螃蟹",
               ingredients: ["鸡蛋"],

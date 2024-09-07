@@ -1,4 +1,4 @@
-import { _decorator, Button, Color, Component, director, instantiate, Label, Node, Prefab, ScrollBar, Sprite, UITransform } from 'cc';
+import { _decorator, Button, Color, Component, director, instantiate, Label, Node, Prefab, ScrollBar, Sprite, UIOpacity, UITransform } from 'cc';
 import { RecipesGenerate } from '../RecipesGenerate';
 import { UIStackManager } from '../../UIStackManager';
 import { NavigationBar } from '../NavigationBar';
@@ -40,13 +40,16 @@ export class IngredientSearch extends Component {
     private selectedCookingMethod: string = '';  // 已选择的烹饪方式
 
     onLoad() {
+        const opacityComp = this.ingredientSearch.getComponent(UIOpacity);
+        opacityComp.opacity = 0;
         // 初始化食材按钮和烹饪方式按钮
         this.generateIngredientButtons();
         this.generateCookingMethodButtons();
         //等待按钮高度确定
         this.scheduleOnce(() => {
             this.updateScrollViewHeight();
-            this .updateRecipeList();
+            this.updateRecipeList();
+            opacityComp.opacity = 255;
         }, 0);
     }
     updateScrollViewHeight() {
@@ -60,6 +63,7 @@ export class IngredientSearch extends Component {
             this.recipeList.getChildByName("view").getComponent(UITransform).height = remainingHeight;
             this.content.getComponent(UITransform).height = remainingHeight;
         }
+        this.recipeList.updateWorldTransform(); 
     }
     calculateOtherComponentsHeight() {
         // 计算上方不确定大小组件的总高度

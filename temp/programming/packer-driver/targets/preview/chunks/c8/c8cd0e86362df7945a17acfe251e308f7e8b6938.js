@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Button, Color, Component, instantiate, Label, Node, Prefab, Sprite, UITransform, RecipesGenerate, NavigationBar, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _crd, ccclass, property, IngredientSearch;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Button, Color, Component, instantiate, Label, Node, Prefab, Sprite, UIOpacity, UITransform, RecipesGenerate, NavigationBar, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _crd, ccclass, property, IngredientSearch;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -33,6 +33,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
       Node = _cc.Node;
       Prefab = _cc.Prefab;
       Sprite = _cc.Sprite;
+      UIOpacity = _cc.UIOpacity;
       UITransform = _cc.UITransform;
     }, function (_unresolved_2) {
       RecipesGenerate = _unresolved_2.RecipesGenerate;
@@ -44,7 +45,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
 
       _cclegacy._RF.push({}, "e4406P3igJD94uEzxaaDL7f", "IngredientSearch", undefined);
 
-      __checkObsolete__(['_decorator', 'Button', 'Color', 'Component', 'director', 'instantiate', 'Label', 'Node', 'Prefab', 'ScrollBar', 'Sprite', 'UITransform']);
+      __checkObsolete__(['_decorator', 'Button', 'Color', 'Component', 'director', 'instantiate', 'Label', 'Node', 'Prefab', 'ScrollBar', 'Sprite', 'UIOpacity', 'UITransform']);
 
       ({
         ccclass,
@@ -99,13 +100,16 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
 
         // 已选择的烹饪方式
         onLoad() {
-          // 初始化食材按钮和烹饪方式按钮
+          var opacityComp = this.ingredientSearch.getComponent(UIOpacity);
+          opacityComp.opacity = 0; // 初始化食材按钮和烹饪方式按钮
+
           this.generateIngredientButtons();
           this.generateCookingMethodButtons(); //等待按钮高度确定
 
           this.scheduleOnce(() => {
             this.updateScrollViewHeight();
             this.updateRecipeList();
+            opacityComp.opacity = 255;
           }, 0);
         }
 
@@ -120,6 +124,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
             this.recipeList.getChildByName("view").getComponent(UITransform).height = remainingHeight;
             this.content.getComponent(UITransform).height = remainingHeight;
           }
+
+          this.recipeList.updateWorldTransform();
         }
 
         calculateOtherComponentsHeight() {
