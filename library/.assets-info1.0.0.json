@@ -19,7 +19,7 @@
       "time": 1724681197000
     },
     "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Material": {
-      "time": 1724914654432.6282,
+      "time": 1725759289958.8936,
       "uuid": "a160297e-708c-4f42-ab64-f25edb45bdab"
     },
     "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\Detail.meta": {
@@ -73,7 +73,7 @@
       "uuid": "58ab5181-4e59-4c7b-bf4c-a994142f9015"
     },
     "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources": {
-      "time": 1724683735821.8862,
+      "time": 1725759286514.1682,
       "uuid": "4b9fad23-84c1-4834-a7e5-8ecf5543ba4d"
     },
     "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\scene": {
@@ -117,7 +117,7 @@
       "uuid": "1dc02a53-3e21-485b-a639-e3835203a667"
     },
     "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\IngredientSearch\\IngredientSearch.ts": {
-      "time": 1725690364355.9436,
+      "time": 1725692847463.7668,
       "uuid": "e44063f7-8a02-43f7-8b84-cf169a0cbedf"
     },
     "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab\\CookingMethodButton.prefab.meta": {
@@ -240,7 +240,7 @@
       "uuid": "e633977b-10b9-4822-b955-363bf3f68216"
     },
     "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\scene\\Recipes\\RecipesHomeScene.scene": {
-      "time": 1725690218038.7832,
+      "time": 1725762741066.118,
       "uuid": "1b015c85-56e2-4613-8b33-729106000d8c"
     },
     "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\厚蛋烧.png": {
@@ -383,8 +383,29 @@
       "time": 1724914981468.9387
     },
     "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\Random\\Random.ts": {
-      "time": 1724918944148.7014,
+      "time": 1725762679863.793,
       "uuid": "182c8d57-8416-445d-9efa-1aed5727296c"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Material\\2buttons.png.meta": {
+      "time": 1725759289971.8955
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Material\\2buttons.png": {
+      "time": 1725759263843.4048,
+      "uuid": "d98caf58-8192-40a3-8d92-d4bb9731549c"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Audio.meta": {
+      "time": 1725759787840.5996
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Audio": {
+      "time": 1725759791513.64,
+      "uuid": "8ee13feb-4450-4f12-906f-896a052293ba"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Audio\\gmae.wav.meta": {
+      "time": 1725759791534.6423
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Audio\\gmae.wav": {
+      "time": 1725759670338.114,
+      "uuid": "e6729b66-bb9a-4165-a156-c3aca3b8832b"
     }
   },
   "missing": {
@@ -667,6 +688,11 @@
       "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Material\\brightretrobuttons.png",
       "time": 1724913770449.6626,
       "removeTime": 1724914144067
+    },
+    "2b4e5e6f-aa06-4f10-b3e7-ae1edfa9acd4": {
+      "path": "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\2buttons.png",
+      "time": 1725759263843.4048,
+      "removeTime": 1725759286520
     }
   }
 }

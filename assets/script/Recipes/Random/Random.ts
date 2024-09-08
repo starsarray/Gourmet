@@ -1,4 +1,4 @@
-import { _decorator, Button, Component, Label, Node, Prefab, instantiate } from 'cc';
+import { _decorator, Button, Component, Label, Node, Prefab, instantiate, AudioSource } from 'cc';
 import { RecipesGenerate } from '../RecipesGenerate';
 import { NavigationBar } from '../NavigationBar';
 const { ccclass, property } = _decorator;
@@ -12,6 +12,10 @@ export class Random extends Component {
     // 当前推荐数量 文本
     @property(Label)
     lab: Label | null = null;
+
+    // 随机按钮
+    @property(Button)
+    button: Button | null = null;
 
     // 食谱按钮预制体
     @property(Prefab)
@@ -30,8 +34,15 @@ export class Random extends Component {
     // 已选择的食谱索引
     private selectedRecipeIndices: Set<number> = new Set();
 
+    // 控制音效
+    private bu : boolean = false;
+
     // 更新推荐食谱
     updateRecipe() {
+        if(this.bu){
+            const audioSource = this.button.getComponent(AudioSource);
+            audioSource.play();
+        }
         if (!this.randomNode || !this.lab || !this.buttonPrefab) return;
 
         // 清除当前所有子节点
@@ -117,5 +128,6 @@ export class Random extends Component {
         }
 
         this.updateRecipe();  // 初始化食谱显示
+        this.bu = true;
     }
 }

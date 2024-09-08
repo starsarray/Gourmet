@@ -18,6 +18,8 @@
         "f12ea3c9-9b1a-4cd6-927e-13d1fa48afa5",
         "5083edbe-f9c2-4dbf-b48d-8456923bdef7",
         "b8a94dfa-f2a8-4dc7-804b-01c62043ea86@f9941",
+        "d98caf58-8192-40a3-8d92-d4bb9731549c@f9941",
+        "e6729b66-bb9a-4165-a156-c3aca3b8832b",
         "9d410fdd-b286-4add-a382-b63d56e4b362",
         "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
       ],
@@ -924,6 +926,66 @@
   "182c8d57-8416-445d-9efa-1aed5727296c": {
     "url": "db://assets/script/Recipes/Random/Random.ts",
     "value": {},
+    "versionCode": 1
+  },
+  "2b4e5e6f-aa06-4f10-b3e7-ae1edfa9acd4": {
+    "url": "db://assets/resources/2buttons.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "2b4e5e6f-aa06-4f10-b3e7-ae1edfa9acd4@6c48a": {
+    "url": "db://assets/resources/2buttons.png@6c48a",
+    "value": {
+      "depends": [
+        "2b4e5e6f-aa06-4f10-b3e7-ae1edfa9acd4"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2b4e5e6f-aa06-4f10-b3e7-ae1edfa9acd4@f9941": {
+    "url": "db://assets/resources/2buttons.png@f9941",
+    "value": {
+      "depends": [
+        "2b4e5e6f-aa06-4f10-b3e7-ae1edfa9acd4@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d98caf58-8192-40a3-8d92-d4bb9731549c": {
+    "url": "db://assets/Material/2buttons.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d98caf58-8192-40a3-8d92-d4bb9731549c@6c48a": {
+    "url": "db://assets/Material/2buttons.png@6c48a",
+    "value": {
+      "depends": [
+        "d98caf58-8192-40a3-8d92-d4bb9731549c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d98caf58-8192-40a3-8d92-d4bb9731549c@f9941": {
+    "url": "db://assets/Material/2buttons.png@f9941",
+    "value": {
+      "depends": [
+        "d98caf58-8192-40a3-8d92-d4bb9731549c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8ee13feb-4450-4f12-906f-896a052293ba": {
+    "url": "db://assets/Audio",
+    "value": {},
+    "versionCode": 1
+  },
+  "e6729b66-bb9a-4165-a156-c3aca3b8832b": {
+    "url": "db://assets/Audio/gmae.wav",
+    "value": {
+      "depends": []
+    },
     "versionCode": 1
   }
 }
