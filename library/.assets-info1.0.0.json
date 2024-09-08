@@ -19,7 +19,7 @@
       "time": 1724681197000
     },
     "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Material": {
-      "time": 1725759289958.8936,
+      "time": 1725783748266.9724,
       "uuid": "a160297e-708c-4f42-ab64-f25edb45bdab"
     },
     "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\Detail.meta": {
@@ -81,7 +81,7 @@
       "uuid": "cd96e246-e41c-4538-af24-47c15f7f2244"
     },
     "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image": {
-      "time": 1724683735826.881,
+      "time": 1725774582058.9841,
       "uuid": "efd887d8-7524-45d1-aa8c-c3789ff8625c"
     },
     "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\scene\\Recipes": {
@@ -109,7 +109,7 @@
       "uuid": "0fc39eac-836a-46a0-aa9a-456b648bd0fd"
     },
     "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\RecipesGenerate.ts": {
-      "time": 1725637250795.4182,
+      "time": 1725778332226.6655,
       "uuid": "50964c2a-dd6a-42cc-87ab-45f04a5cbb54"
     },
     "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\Home\\RecipesSearch.ts": {
@@ -117,7 +117,7 @@
       "uuid": "1dc02a53-3e21-485b-a639-e3835203a667"
     },
     "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\script\\Recipes\\IngredientSearch\\IngredientSearch.ts": {
-      "time": 1725692847463.7668,
+      "time": 1725778349386.388,
       "uuid": "e44063f7-8a02-43f7-8b84-cf169a0cbedf"
     },
     "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Prefab\\CookingMethodButton.prefab.meta": {
@@ -240,7 +240,7 @@
       "uuid": "e633977b-10b9-4822-b955-363bf3f68216"
     },
     "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\scene\\Recipes\\RecipesHomeScene.scene": {
-      "time": 1725762741066.118,
+      "time": 1725783752115.8044,
       "uuid": "1b015c85-56e2-4613-8b33-729106000d8c"
     },
     "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\egg\\厚蛋烧.png": {
@@ -406,6 +406,55 @@
     "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Audio\\gmae.wav": {
       "time": 1725759670338.114,
       "uuid": "e6729b66-bb9a-4165-a156-c3aca3b8832b"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\potato.meta": {
+      "time": 1725774582062.986
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\potato\\拌土豆片.jpg.meta": {
+      "time": 1725774582160.0068
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\potato": {
+      "time": 1725778411279.519,
+      "uuid": "46797411-7824-4598-9ca4-7e147a59e84c"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\potato\\拌土豆片.jpg": {
+      "time": 1725774483498.9478,
+      "uuid": "82a7e206-3ea6-4cc9-a152-15cbca6371f2"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\potato\\煎土豆.jpg.meta": {
+      "time": 1725777204536.9814
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\potato\\煎土豆.jpg": {
+      "time": 1725777184839.2742,
+      "uuid": "efc9a33e-357c-4f66-bf31-2ce611bb5767"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\potato\\土豆丝饼.jpg.meta": {
+      "time": 1725777708682.9133
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\potato\\土豆丝饼.jpg": {
+      "time": 1725777678360.4497,
+      "uuid": "72b6e80e-6704-4440-9760-ef0bab3f0c14"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\potato\\土豆挞.jpg.meta": {
+      "time": 1725778411340.5325
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\resources\\image\\potato\\土豆挞.jpg": {
+      "time": 1725778388191.1047,
+      "uuid": "21e85cff-b36d-4b88-b420-f2ffaf13d83a"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Material\\2(1)buttons.png.meta": {
+      "time": 1725782298901.3691
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Material\\2(1)buttons.png": {
+      "time": 1725782271159.3071,
+      "uuid": "2f0a5f75-e31d-48c7-afb8-41162185c627"
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Material\\3buttons.png.meta": {
+      "time": 1725783748283.9756
+    },
+    "D:\\ProgramData\\cocos\\workplace\\Gourmet\\assets\\Material\\3buttons.png": {
+      "time": 1725783730621.7798,
+      "uuid": "adfe21e7-6524-4ffc-a815-3e7b14f962e1"
     }
   },
   "missing": {

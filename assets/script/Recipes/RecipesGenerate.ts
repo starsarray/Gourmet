@@ -19,7 +19,7 @@ export class RecipesGenerate extends Component {
                 name: "水蒸蛋",
                 ingredients: ["鸡蛋"],
                 seasonings: ["盐", "酱油","香油","香葱" ],
-                cooking_methods: ["锅", "电饭煲"],
+                cooking_methods: ["锅"],
                 image:"image/egg/水蒸蛋/spriteFrame",
                 link:'<color=#00E0FF>观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1TT4y127vu/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
@@ -328,6 +328,87 @@ export class RecipesGenerate extends Component {
                 "<br/>6.放入两个蛋黄和白醋搅散<br/>"+
                 "<br/>7.边搅边倒入黄油<br/>"+
                 "<br/>8.待质地发生变化时将其(荷兰酱)迅速倒入水波蛋上(关键点)<br/>"
+            },
+            {
+                name: "拌土豆片",
+                ingredients: ["土豆"],
+                seasonings: ["花生酱","芝麻酱","蚝油","陈醋","糖","盐","油泼辣子","温水","芝麻","香葱"],
+                cooking_methods: ["锅"],
+                image:"image/potato/拌土豆片/spriteFrame",
+                link:'<color=#00E0FF>观看视频:</color>'+
+                '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
+                '<color=#FF0000>拌土豆片</color></a><br/>',
+                details: "    好吃的拌土豆片<br/>"+
+                "<br/>1.去好皮的土豆削成片<br/>"+
+                "<br/>2.水开放土豆片，一分钟捞出浸凉水<br/>"+
+                "<br/>3.花生酱、芝麻酱、温水1：1:1搅拌到浓稠的质地<br/>"+
+                "<br/>4.再加上酱油、醋、蚝油、白糖，一大勺油泼辣子<br/>"+
+                "<br/>5.拌好加入土豆片继续拌<br/>"+
+                "<br/>6.最后撒上芝麻和葱花<br/>"
+            },
+            {
+                name: "煎土豆",
+                ingredients: ["土豆"],
+                seasonings: [],
+                cooking_methods: ["锅"],
+                image:"image/potato/煎土豆/spriteFrame",
+                link:'<color=#00E0FF>观看视频:</color>'+
+                '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
+                '<color=#FF0000>煎土豆</color></a><br/>',
+                details: "    好吃的煎土豆<br/>"+
+                "<br/>1.土豆切成块放入烧好的开水中<br/>"+
+                "<br/>2.起沙之后捞出擦干<br/>"+
+                "<br/>3.淋上花生油搅拌<br/>"+
+                "<br/>4.空锅中火放入土豆<br/>"+
+                "<br/>5.慢慢烙到每一面都焦香收盘<br/>"
+            },
+            {
+                name: "土豆丝饼",
+                ingredients: ["土豆"],
+                seasonings: ["面粉","盐","花椒粉","芝麻"],
+                cooking_methods: ["锅"],
+                image:"image/potato/土豆丝饼/spriteFrame",
+                link:'<color=#00E0FF>观看视频:</color>'+
+                '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
+                '<color=#FF0000>土豆丝饼</color></a><br/>',
+                details: "    好吃的土豆丝饼<br/>"+
+                "<br/>1.黄皮土豆擦成细丝<br/>"+
+                "<br/>2.加入面粉，撒上盐、花椒粉和一勺芝麻，揉成面糊<br/>"+
+                "<br/>3.锅中油微微烫手下入面糊<br/>"+
+                "<br/>4.摊成厚薄均匀的面饼，保持中低火<br/>"+
+                "<br/>5.两面金黄就可出锅<br/>"
+            },
+            {
+                name: "土豆挞",
+                ingredients: ["土豆","菌菇"],
+                seasonings: ["面粉","盐","花椒粉","芝麻","黄油"],
+                cooking_methods: ["烤箱"],
+                image:"image/potato/土豆挞/spriteFrame",
+                link:'<color=#00E0FF>观看视频:</color>'+
+                '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
+                '<color=#FF0000>土豆挞</color></a><br/>',
+                details: "    好吃的土豆挞，得先得到土豆丝饼的面糊再来<br/>"+
+                "<br/>1.烤盘里刷上一层黄油<br/>"+
+                "<br/>2.放入土豆丝饼的面糊，压成小碗的形状送入烤箱<br/>"+
+                "<br/>3.180度50分钟定型<br/>"+
+                "<br/>4.将蘑菇切碎放入油锅里，炒至褐色加盐出锅<br/>"+
+                "<br/>5.土豆挞里加入蘑菇酱即可<br/>"
+            },
+            {
+                name: "土豆泥",
+                ingredients: ["土豆","菌菇"],
+                seasonings: ["面粉","盐","花椒粉","芝麻","黄油"],
+                cooking_methods: ["烤箱","锅"],
+                image:"image/potato/土豆挞/spriteFrame",
+                link:'<color=#00E0FF>观看视频:</color>'+
+                '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
+                '<color=#FF0000>土豆挞</color></a><br/>',
+                details: "    好吃的土豆挞，得先得到土豆丝饼的面糊再来<br/>"+
+                "<br/>1.烤盘里刷上一层黄油<br/>"+
+                "<br/>2.放入土豆丝饼的面糊，压成小碗的形状送入烤箱<br/>"+
+                "<br/>3.180度50分钟定型<br/>"+
+                "<br/>4.将蘑菇切碎放入油锅里，炒至褐色加盐出锅<br/>"+
+                "<br/>5.土豆挞里加入蘑菇酱即可<br/>"
             }
         ]
     };
@@ -438,7 +519,7 @@ export class RecipesGenerate extends Component {
             }
             // 设置烹饪方式
             if (cookingMethodsLabel) {
-                cookingMethodsLabel.string = `烹饪方式：${recipe.cooking_methods.join(" 或 ")}`;
+                cookingMethodsLabel.string = `烹饪方式：${recipe.cooking_methods.join(",")}`;
             }
             // 添加点击事件，跳转到详情页面并传参
             listItem.on(Node.EventType.TOUCH_END, () => {

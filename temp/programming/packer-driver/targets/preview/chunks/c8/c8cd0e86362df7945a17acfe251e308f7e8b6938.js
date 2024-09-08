@@ -226,7 +226,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
               }
             }
 
-            if (cookingMethodsLabel) cookingMethodsLabel.string = "\u70F9\u996A\u65B9\u5F0F\uFF1A" + recipe.cooking_methods.join(" 或 "); // 添加点击事件，跳转到详情页面并传参
+            if (cookingMethodsLabel) cookingMethodsLabel.string = "\u70F9\u996A\u65B9\u5F0F\uFF1A" + recipe.cooking_methods.join(","); // 添加点击事件，跳转到详情页面并传参
 
             listItem.on(Node.EventType.TOUCH_END, () => {
               var navigationBarComponent = this.navBar.getComponent(_crd && NavigationBar === void 0 ? (_reportPossibleCrUseOfNavigationBar({

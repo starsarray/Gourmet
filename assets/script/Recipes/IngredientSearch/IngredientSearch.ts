@@ -164,7 +164,7 @@ export class IngredientSearch extends Component {
                     seasoningsLabel.string = `配料：无`;
                 }
             }
-            if (cookingMethodsLabel) cookingMethodsLabel.string = `烹饪方式：${recipe.cooking_methods.join(" 或 ")}`;
+            if (cookingMethodsLabel) cookingMethodsLabel.string = `烹饪方式：${recipe.cooking_methods.join(",")}`;
             // 添加点击事件，跳转到详情页面并传参
             listItem.on(Node.EventType.TOUCH_END, () => {
                 const navigationBarComponent = this.navBar.getComponent(NavigationBar);

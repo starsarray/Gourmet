@@ -18,7 +18,7 @@
         "f12ea3c9-9b1a-4cd6-927e-13d1fa48afa5",
         "5083edbe-f9c2-4dbf-b48d-8456923bdef7",
         "b8a94dfa-f2a8-4dc7-804b-01c62043ea86@f9941",
-        "d98caf58-8192-40a3-8d92-d4bb9731549c@f9941",
+        "adfe21e7-6524-4ffc-a815-3e7b14f962e1@f9941",
         "e6729b66-bb9a-4165-a156-c3aca3b8832b",
         "9d410fdd-b286-4add-a382-b63d56e4b362",
         "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941"
@@ -985,6 +985,161 @@
     "url": "db://assets/Audio/gmae.wav",
     "value": {
       "depends": []
+    },
+    "versionCode": 1
+  },
+  "82a7e206-3ea6-4cc9-a152-15cbca6371f2": {
+    "url": "db://assets/resources/image/potato/拌土豆片.jpg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "46797411-7824-4598-9ca4-7e147a59e84c": {
+    "url": "db://assets/resources/image/potato",
+    "value": {},
+    "versionCode": 1
+  },
+  "82a7e206-3ea6-4cc9-a152-15cbca6371f2@6c48a": {
+    "url": "db://assets/resources/image/potato/拌土豆片.jpg@6c48a",
+    "value": {
+      "depends": [
+        "82a7e206-3ea6-4cc9-a152-15cbca6371f2"
+      ]
+    },
+    "versionCode": 1
+  },
+  "82a7e206-3ea6-4cc9-a152-15cbca6371f2@f9941": {
+    "url": "db://assets/resources/image/potato/拌土豆片.jpg@f9941",
+    "value": {
+      "depends": [
+        "82a7e206-3ea6-4cc9-a152-15cbca6371f2@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "efc9a33e-357c-4f66-bf31-2ce611bb5767": {
+    "url": "db://assets/resources/image/potato/煎土豆.jpg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "efc9a33e-357c-4f66-bf31-2ce611bb5767@6c48a": {
+    "url": "db://assets/resources/image/potato/煎土豆.jpg@6c48a",
+    "value": {
+      "depends": [
+        "efc9a33e-357c-4f66-bf31-2ce611bb5767"
+      ]
+    },
+    "versionCode": 1
+  },
+  "efc9a33e-357c-4f66-bf31-2ce611bb5767@f9941": {
+    "url": "db://assets/resources/image/potato/煎土豆.jpg@f9941",
+    "value": {
+      "depends": [
+        "efc9a33e-357c-4f66-bf31-2ce611bb5767@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "72b6e80e-6704-4440-9760-ef0bab3f0c14": {
+    "url": "db://assets/resources/image/potato/土豆丝饼.jpg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "72b6e80e-6704-4440-9760-ef0bab3f0c14@6c48a": {
+    "url": "db://assets/resources/image/potato/土豆丝饼.jpg@6c48a",
+    "value": {
+      "depends": [
+        "72b6e80e-6704-4440-9760-ef0bab3f0c14"
+      ]
+    },
+    "versionCode": 1
+  },
+  "72b6e80e-6704-4440-9760-ef0bab3f0c14@f9941": {
+    "url": "db://assets/resources/image/potato/土豆丝饼.jpg@f9941",
+    "value": {
+      "depends": [
+        "72b6e80e-6704-4440-9760-ef0bab3f0c14@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "21e85cff-b36d-4b88-b420-f2ffaf13d83a": {
+    "url": "db://assets/resources/image/potato/土豆挞.jpg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "21e85cff-b36d-4b88-b420-f2ffaf13d83a@6c48a": {
+    "url": "db://assets/resources/image/potato/土豆挞.jpg@6c48a",
+    "value": {
+      "depends": [
+        "21e85cff-b36d-4b88-b420-f2ffaf13d83a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "21e85cff-b36d-4b88-b420-f2ffaf13d83a@f9941": {
+    "url": "db://assets/resources/image/potato/土豆挞.jpg@f9941",
+    "value": {
+      "depends": [
+        "21e85cff-b36d-4b88-b420-f2ffaf13d83a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2f0a5f75-e31d-48c7-afb8-41162185c627": {
+    "url": "db://assets/Material/2(1)buttons.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2f0a5f75-e31d-48c7-afb8-41162185c627@6c48a": {
+    "url": "db://assets/Material/2(1)buttons.png@6c48a",
+    "value": {
+      "depends": [
+        "2f0a5f75-e31d-48c7-afb8-41162185c627"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2f0a5f75-e31d-48c7-afb8-41162185c627@f9941": {
+    "url": "db://assets/Material/2(1)buttons.png@f9941",
+    "value": {
+      "depends": [
+        "2f0a5f75-e31d-48c7-afb8-41162185c627@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "adfe21e7-6524-4ffc-a815-3e7b14f962e1": {
+    "url": "db://assets/Material/3buttons.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "adfe21e7-6524-4ffc-a815-3e7b14f962e1@6c48a": {
+    "url": "db://assets/Material/3buttons.png@6c48a",
+    "value": {
+      "depends": [
+        "adfe21e7-6524-4ffc-a815-3e7b14f962e1"
+      ]
+    },
+    "versionCode": 1
+  },
+  "adfe21e7-6524-4ffc-a815-3e7b14f962e1@f9941": {
+    "url": "db://assets/Material/3buttons.png@f9941",
+    "value": {
+      "depends": [
+        "adfe21e7-6524-4ffc-a815-3e7b14f962e1@6c48a"
+      ]
     },
     "versionCode": 1
   }

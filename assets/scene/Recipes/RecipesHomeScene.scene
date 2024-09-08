@@ -6704,18 +6704,12 @@
       "__uuid__": "b8a94dfa-f2a8-4dc7-804b-01c62043ea86@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
-    "_hoverSprite": {
-      "__uuid__": "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
-      "__expectedType__": "cc.SpriteFrame"
-    },
+    "_hoverSprite": null,
     "_pressedSprite": {
-      "__uuid__": "d98caf58-8192-40a3-8d92-d4bb9731549c@f9941",
+      "__uuid__": "adfe21e7-6524-4ffc-a815-3e7b14f962e1@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
-    "_disabledSprite": {
-      "__uuid__": "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
-      "__expectedType__": "cc.SpriteFrame"
-    },
+    "_disabledSprite": null,
     "_duration": 0.1,
     "_zoomScale": 1.2,
     "_target": {
