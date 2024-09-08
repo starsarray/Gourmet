@@ -74,7 +74,7 @@ export class IngredientSearch extends Component {
     }
     generateIngredientButtons() {
         const ingredients = ["鸡蛋",  "猪肉", "鸡肉", "牛肉", "羊肉", "鱼", "虾", "香肠", 
-            "土豆", "胡萝卜", "黄瓜", "白菜", "包菜", "白萝卜", "花菜", "番茄", "洋葱", "莴笋", "菌菇", "茄子", "豆腐", "西葫芦"];  // 示例食材
+            "土豆", "胡萝卜", "黄瓜", "白菜", "包菜", "白萝卜", "花菜", "番茄", "洋葱", "莴笋", "菌菇", "茄子", "豆腐", "火腿肠", "西葫芦"];  // 示例食材
 
         ingredients.forEach(ingredient => {
             const button = instantiate(this.ingredientButtonPrefab);

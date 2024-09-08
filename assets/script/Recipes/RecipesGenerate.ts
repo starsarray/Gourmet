@@ -18,7 +18,7 @@ export class RecipesGenerate extends Component {
             {
                 name: "水蒸蛋",
                 ingredients: ["鸡蛋"],
-                seasonings: ["盐", "酱油","香油","香葱" ],
+                seasonings: ["盐", "生抽","香油","香葱" ],
                 cooking_methods: ["锅"],
                 image:"image/egg/水蒸蛋/spriteFrame",
                 link:'<color=#00E0FF>观看视频:</color>'+
@@ -29,7 +29,7 @@ export class RecipesGenerate extends Component {
                 "<br/>1.将鸡蛋打散，与水1:1.5混合放入盐调味<br/>"+
                 "<br/>2.除去表面气泡，用保鲜膜密封<br/>"+
                 "<br/>3.放入烧开水的锅中用小火蒸10分钟<br/>"+
-                "<br/>4.用刀划出分界线，淋上酱油和香油<br/>"+
+                "<br/>4.用刀划出分界线，淋上生抽和香油<br/>"+
                 "<br/>5.最后用香葱点缀<br/>"
             },
             {
@@ -279,7 +279,7 @@ export class RecipesGenerate extends Component {
             {
                 name: "赛螃蟹",
                 ingredients: ["鸡蛋"],
-                seasonings: ["醋","白糖","生姜"],
+                seasonings: ["醋","糖","生姜"],
                 cooking_methods: ["锅"],
                 image:"image/egg/赛螃蟹/spriteFrame",
                 link:'<color=#00E0FF>观看视频:</color>'+
@@ -332,7 +332,7 @@ export class RecipesGenerate extends Component {
             {
                 name: "拌土豆片",
                 ingredients: ["土豆"],
-                seasonings: ["花生酱","芝麻酱","蚝油","陈醋","糖","盐","油泼辣子","温水","芝麻","香葱"],
+                seasonings: ["花生酱","芝麻酱","生抽","蚝油","陈醋","糖","盐","油泼辣子","温水","芝麻","香葱"],
                 cooking_methods: ["锅"],
                 image:"image/potato/拌土豆片/spriteFrame",
                 link:'<color=#00E0FF>观看视频:</color>'+
@@ -342,7 +342,7 @@ export class RecipesGenerate extends Component {
                 "<br/>1.去好皮的土豆削成片<br/>"+
                 "<br/>2.水开放土豆片，一分钟捞出浸凉水<br/>"+
                 "<br/>3.花生酱、芝麻酱、温水1：1:1搅拌到浓稠的质地<br/>"+
-                "<br/>4.再加上酱油、醋、蚝油、白糖，一大勺油泼辣子<br/>"+
+                "<br/>4.再加上生抽、醋、蚝油、白糖，一大勺油泼辣子<br/>"+
                 "<br/>5.拌好加入土豆片继续拌<br/>"+
                 "<br/>6.最后撒上芝麻和葱花<br/>"
             },
@@ -395,20 +395,136 @@ export class RecipesGenerate extends Component {
                 "<br/>5.土豆挞里加入蘑菇酱即可<br/>"
             },
             {
-                name: "土豆泥",
-                ingredients: ["土豆","菌菇"],
-                seasonings: ["面粉","盐","花椒粉","芝麻","黄油"],
-                cooking_methods: ["烤箱","锅"],
-                image:"image/potato/土豆挞/spriteFrame",
+                name: "日式土豆泥",
+                ingredients: ["土豆","胡萝卜","鸡蛋","黄瓜","火腿肠"],
+                seasonings: ["沙拉酱","盐","胡椒粉","黄油"],
+                cooking_methods: ["烤箱"],
+                image:"image/potato/日式土豆泥/spriteFrame",
                 link:'<color=#00E0FF>观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
-                '<color=#FF0000>土豆挞</color></a><br/>',
-                details: "    好吃的土豆挞，得先得到土豆丝饼的面糊再来<br/>"+
-                "<br/>1.烤盘里刷上一层黄油<br/>"+
-                "<br/>2.放入土豆丝饼的面糊，压成小碗的形状送入烤箱<br/>"+
-                "<br/>3.180度50分钟定型<br/>"+
-                "<br/>4.将蘑菇切碎放入油锅里，炒至褐色加盐出锅<br/>"+
-                "<br/>5.土豆挞里加入蘑菇酱即可<br/>"
+                '<color=#FF0000>日式土豆泥</color></a><br/>',
+                details: "    好吃的日式土豆泥<br/>"+
+                "<br/>1.同时蒸土豆、胡萝卜、鸡蛋<br/>"+
+                "<br/>2.与腌制好的黄瓜薄片、火腿肠一起抓烂<br/>"+
+                "<br/>3.放入两个黄油块，挤上沙拉酱<br/>"+
+                "<br/>4.撒上胡椒粉搅拌均匀即可<br/>"
+            },
+            {
+                name: "薯条",
+                ingredients: ["土豆"],
+                seasonings: ["白醋","生粉"],
+                cooking_methods: ["锅"],
+                image:"image/potato/薯条/spriteFrame",
+                link:'<color=#00E0FF>观看视频:</color>'+
+                '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
+                '<color=#FF0000>薯条</color></a><br/>',
+                details: "    好吃的薯条<br/>"+
+                "<br/>1.土豆切成条，加入放入白醋的开水中煮5分钟<br/>"+
+                "<br/>2.捞出擦干水分滚一层玉米淀粉<br/>"+
+                "<br/>3.宽油中火加热到筷子冒泡，开炸3分钟<br/>"+
+                "<br/>4.再升高油温复炸至通条金黄<br/>"
+            },
+            {
+                name: "老奶洋芋",
+                ingredients: ["土豆"],
+                seasonings: ["腌菜","胡椒粉","海椒面","茴香"],
+                cooking_methods: ["锅"],
+                image:"image/potato/老奶洋芋/spriteFrame",
+                link:'<color=#00E0FF>观看视频:</color>'+
+                '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
+                '<color=#FF0000>老奶洋芋</color></a><br/>',
+                details: "    好吃的老奶洋芋<br/>"+
+                "<br/>1.将蒸好的土豆捣成泥<br/>"+
+                "<br/>2.锅里放油抄腌菜<br/>"+
+                "<br/>3.放入胡椒粉、海椒面与土豆泥，翻炒至柔软顺滑的质地<br/>"+
+                "<br/>4.加入茴香炒匀出锅<br/>"
+            },
+            {
+                name: "洋芋擦擦",
+                ingredients: ["土豆","胡萝卜","猪肉","豇豆"],
+                seasonings: ["腌菜","胡椒粉","海椒面","茴香"],
+                cooking_methods: ["锅"],
+                image:"image/potato/洋芋擦擦/spriteFrame",
+                link:'<color=#00E0FF>观看视频:</color>'+
+                '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
+                '<color=#FF0000>洋芋擦擦</color></a><br/>',
+                details: "    好吃的拨烂子<br/>"+
+                "<br/>1.将土豆和胡萝卜擦成条<br/>"+
+                "<br/>2.倒入面粉，宁多勿少<br/>"+
+                "<br/>3.拌好上锅蒸15分钟<br/>"+
+                "<br/>4.锅放底油，放入肉丝划散<br/>"+
+                "<br/>5.加入一包酸豇豆，放适量盐<br/>"+
+                "<br/>6.将蒸好的擦擦放入炒匀出锅<br/>"
+            },
+            {
+                name: "千层土豆烘蛋",
+                ingredients: ["土豆","胡萝卜","鸡蛋"],
+                seasonings: ["牛奶","糖"],
+                cooking_methods: ["锅","烤箱"],
+                image:"image/potato/千层土豆烘蛋/spriteFrame",
+                link:'<color=#00E0FF>观看视频:</color>'+
+                '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
+                '<color=#FF0000>千层土豆烘蛋</color></a><br/>',
+                details: "    好吃的千层土豆烘蛋<br/>"+
+                "<br/>1.将土豆和胡萝卜切成片<br/>"+
+                "<br/>2.拌好上锅蒸15分钟<br/>"+
+                "<br/>3.打3颗鸡蛋搅散，放入牛奶和糖<br/>"+
+                "<br/>4.将蒸好的片放入蛋液中<br/>"+
+                "<br/>5.覆上保鲜膜戳几个洞，放入烤箱180度烤15分钟<br/>"+
+                "<br/>6.再去盖200度烤10分钟<br/>"
+            },
+            {
+                name: "土豆红烧肉",
+                ingredients: ["土豆","猪肉","鸡蛋"],
+                seasonings: ["啤酒","糖","桂皮","生抽","盐","八角","香葱"],
+                cooking_methods: ["锅"],
+                image:"image/potato/土豆红烧肉/spriteFrame",
+                link:'<color=#00E0FF>观看视频:</color>'+
+                '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
+                '<color=#FF0000>土豆红烧肉</color></a><br/>',
+                details: "    好吃的土豆红烧肉<br/>"+
+                "<br/>1.将土豆和五花肉切成块<br/>"+
+                "<br/>2.锅烧底油放入五花肉，煎至两面金黄捞出<br/>"+
+                "<br/>3.剩下的油放入糖，炒至枣红色<br/>"+
+                "<br/>4.下入肉块和土豆块翻炒均匀<br/>"+
+                "<br/>5.倒入一整罐啤酒没过肉块<br/>"+
+                "<br/>6.小火煮至汤汁浓稠，撒上香葱点缀<br/>"
+            },
+            {
+                name: "牧羊人派",
+                ingredients: ["土豆","羊肉"],
+                seasonings: ["黄油","大蒜","番茄酱","浓汤宝"],
+                cooking_methods: ["锅","烤箱"],
+                image:"image/potato/牧羊人派/spriteFrame",
+                link:'<color=#00E0FF>观看视频:</color>'+
+                '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
+                '<color=#FF0000>牧羊人派</color></a><br/>',
+                details: "    好吃的牧羊人派<br/>"+
+                "<br/>1.做一碗土豆泥加入黄油捣至顺滑<br/>"+
+                "<br/>2.锅烧底油炒香羊肉糜<br/>"+
+                "<br/>3.加入蒜沫、番茄酱、浓汤宝提味<br/>"+
+                "<br/>4.碗底放做好的羊肉酱，上面铺好土豆泥<br/>"+
+                "<br/>5.在土豆泥上雕刻后放入烤箱<br/>"+
+                "<br/>6.200度15分钟即可<br/>"
+            },
+            {
+                name: "火烧云油焖鸡",
+                ingredients: ["土豆","鸡肉","番茄"],
+                seasonings: ["料酒","生抽","蚝油","大蒜","小米椒","番茄酱","醋","浓汤宝","香葱"],
+                cooking_methods: ["锅"],
+                image:"image/potato/火烧云油焖鸡/spriteFrame",
+                link:'<color=#00E0FF>观看视频:</color>'+
+                '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
+                '<color=#FF0000>火烧云油焖鸡</color></a><br/>',
+                details: "    好吃的火烧云油焖鸡<br/>"+
+                "<br/>1.蒸熟的土豆一半捣成泥，一半切成块<br/>"+
+                "<br/>2.在切好的鸡腿肉里加入料酒、生抽、蚝油腌制半小时<br/>"+
+                "<br/>3.番茄去蒂切成块，准备好蒜和小米辣<br/>"+
+                "<br/>4.锅中放油，放入腌制好的鸡腿肉<br/>"+
+                "<br/>5.煎至褐色，倒入蒜蓉辣椒翻炒<br/>"+
+                "<br/>6.再放入番茄焖煮5分钟<br/>"+
+                "<br/>7.加入土豆泥、土豆块、生抽、番茄酱、蚝油、醋和浓汤宝<br/>"+
+                "<br/>8.小火炖上20分钟至浓稠，撒上葱花<br/>"
             }
         ]
     };

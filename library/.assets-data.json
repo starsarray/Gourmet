@@ -1142,5 +1142,251 @@
       ]
     },
     "versionCode": 1
+  },
+  "4b130306-3729-4e55-87e3-e6f911a07a54": {
+    "url": "db://assets/resources/image/potato/日式土豆泥.jpg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4b130306-3729-4e55-87e3-e6f911a07a54@6c48a": {
+    "url": "db://assets/resources/image/potato/日式土豆泥.jpg@6c48a",
+    "value": {
+      "depends": [
+        "4b130306-3729-4e55-87e3-e6f911a07a54"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4b130306-3729-4e55-87e3-e6f911a07a54@f9941": {
+    "url": "db://assets/resources/image/potato/日式土豆泥.jpg@f9941",
+    "value": {
+      "depends": [
+        "4b130306-3729-4e55-87e3-e6f911a07a54@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f62149bf-cfa3-409b-9509-d30143887705": {
+    "url": "db://assets/resources/image/potato/薯条.jpg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f62149bf-cfa3-409b-9509-d30143887705@6c48a": {
+    "url": "db://assets/resources/image/potato/薯条.jpg@6c48a",
+    "value": {
+      "depends": [
+        "f62149bf-cfa3-409b-9509-d30143887705"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f62149bf-cfa3-409b-9509-d30143887705@f9941": {
+    "url": "db://assets/resources/image/potato/薯条.jpg@f9941",
+    "value": {
+      "depends": [
+        "f62149bf-cfa3-409b-9509-d30143887705@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e5f5f6de-b069-4296-b092-61a5b76e0eff": {
+    "url": "db://assets/resources/image/potato/老奶洋芋.jpg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e5f5f6de-b069-4296-b092-61a5b76e0eff@6c48a": {
+    "url": "db://assets/resources/image/potato/老奶洋芋.jpg@6c48a",
+    "value": {
+      "depends": [
+        "e5f5f6de-b069-4296-b092-61a5b76e0eff"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e5f5f6de-b069-4296-b092-61a5b76e0eff@f9941": {
+    "url": "db://assets/resources/image/potato/老奶洋芋.jpg@f9941",
+    "value": {
+      "depends": [
+        "e5f5f6de-b069-4296-b092-61a5b76e0eff@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8e2dd1e0-adb6-4c8f-b1a1-a612ff94f2af": {
+    "url": "db://assets/resources/image/potato/洋芋檫檫.jpg",
+    "value": {},
+    "versionCode": 1
+  },
+  "8e2dd1e0-adb6-4c8f-b1a1-a612ff94f2af@6c48a": {
+    "url": "db://assets/resources/image/potato/洋芋檫檫.jpg@6c48a",
+    "value": {
+      "depends": [
+        "8e2dd1e0-adb6-4c8f-b1a1-a612ff94f2af"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8e2dd1e0-adb6-4c8f-b1a1-a612ff94f2af@f9941": {
+    "url": "db://assets/resources/image/potato/洋芋檫檫.jpg@f9941",
+    "value": {
+      "depends": [
+        "8e2dd1e0-adb6-4c8f-b1a1-a612ff94f2af@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9bc1e745-6264-48e3-b0bc-119602eb0662": {
+    "url": "db://assets/resources/image/potato/千层土豆烘蛋.jpg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9bc1e745-6264-48e3-b0bc-119602eb0662@6c48a": {
+    "url": "db://assets/resources/image/potato/千层土豆烘蛋.jpg@6c48a",
+    "value": {
+      "depends": [
+        "9bc1e745-6264-48e3-b0bc-119602eb0662"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9bc1e745-6264-48e3-b0bc-119602eb0662@f9941": {
+    "url": "db://assets/resources/image/potato/千层土豆烘蛋.jpg@f9941",
+    "value": {
+      "depends": [
+        "9bc1e745-6264-48e3-b0bc-119602eb0662@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0787d4f3-bc9c-4102-881e-4bcfac17d1c9": {
+    "url": "db://assets/resources/image/potato/土豆红烧肉.jpg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0787d4f3-bc9c-4102-881e-4bcfac17d1c9@6c48a": {
+    "url": "db://assets/resources/image/potato/土豆红烧肉.jpg@6c48a",
+    "value": {
+      "depends": [
+        "0787d4f3-bc9c-4102-881e-4bcfac17d1c9"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0787d4f3-bc9c-4102-881e-4bcfac17d1c9@f9941": {
+    "url": "db://assets/resources/image/potato/土豆红烧肉.jpg@f9941",
+    "value": {
+      "depends": [
+        "0787d4f3-bc9c-4102-881e-4bcfac17d1c9@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c0d32bc4-f01d-4ccb-bc64-792c11845de4": {
+    "url": "db://assets/resources/image/potato/牧羊人派.jpg",
+    "value": {},
+    "versionCode": 1
+  },
+  "c0d32bc4-f01d-4ccb-bc64-792c11845de4@6c48a": {
+    "url": "db://assets/resources/image/potato/牧羊人派.jpg@6c48a",
+    "value": {
+      "depends": [
+        "c0d32bc4-f01d-4ccb-bc64-792c11845de4"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c0d32bc4-f01d-4ccb-bc64-792c11845de4@f9941": {
+    "url": "db://assets/resources/image/potato/牧羊人派.jpg@f9941",
+    "value": {
+      "depends": [
+        "c0d32bc4-f01d-4ccb-bc64-792c11845de4@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a0f6df96-268f-4979-9b9d-38d41d52d344": {
+    "url": "db://assets/resources/image/potato/火烧云油焖鸡.jpg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a0f6df96-268f-4979-9b9d-38d41d52d344@6c48a": {
+    "url": "db://assets/resources/image/potato/火烧云油焖鸡.jpg@6c48a",
+    "value": {
+      "depends": [
+        "a0f6df96-268f-4979-9b9d-38d41d52d344"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a0f6df96-268f-4979-9b9d-38d41d52d344@f9941": {
+    "url": "db://assets/resources/image/potato/火烧云油焖鸡.jpg@f9941",
+    "value": {
+      "depends": [
+        "a0f6df96-268f-4979-9b9d-38d41d52d344@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "87c6fd88-f805-4cee-bc6d-b870e4a64fed": {
+    "url": "db://assets/resources/image/potato/牧羊人派.jpg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "87c6fd88-f805-4cee-bc6d-b870e4a64fed@6c48a": {
+    "url": "db://assets/resources/image/potato/牧羊人派.jpg@6c48a",
+    "value": {
+      "depends": [
+        "87c6fd88-f805-4cee-bc6d-b870e4a64fed"
+      ]
+    },
+    "versionCode": 1
+  },
+  "87c6fd88-f805-4cee-bc6d-b870e4a64fed@f9941": {
+    "url": "db://assets/resources/image/potato/牧羊人派.jpg@f9941",
+    "value": {
+      "depends": [
+        "87c6fd88-f805-4cee-bc6d-b870e4a64fed@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5f5051a5-4734-4963-8d51-c687562f2991": {
+    "url": "db://assets/resources/image/potato/洋芋擦擦.jpg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5f5051a5-4734-4963-8d51-c687562f2991@6c48a": {
+    "url": "db://assets/resources/image/potato/洋芋擦擦.jpg@6c48a",
+    "value": {
+      "depends": [
+        "5f5051a5-4734-4963-8d51-c687562f2991"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5f5051a5-4734-4963-8d51-c687562f2991@f9941": {
+    "url": "db://assets/resources/image/potato/洋芋擦擦.jpg@f9941",
+    "value": {
+      "depends": [
+        "5f5051a5-4734-4963-8d51-c687562f2991@6c48a"
+      ]
+    },
+    "versionCode": 1
   }
 }
