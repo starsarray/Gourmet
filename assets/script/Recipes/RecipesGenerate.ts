@@ -21,7 +21,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["盐", "生抽","香油","香葱" ],
                 cooking_methods: ["锅"],
                 image:"image/egg/水蒸蛋/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1TT4y127vu/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>水蒸蛋</color></a><br/>',
                 details: 
@@ -38,7 +38,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["香葱", "盐"],
                 cooking_methods: ["锅"],
                 image:"image/egg/番茄炒蛋/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1TT4y127vu/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>番茄炒蛋</color></a><br/>',
                 details: "    经典的家常菜，番茄炒蛋。<br/>"+
@@ -55,7 +55,7 @@ export class RecipesGenerate extends Component {
                 seasonings: [],
                 cooking_methods: ["锅"],
                 image:"image/egg/溏心蛋/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1TT4y127vu/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>溏心蛋</color></a><br/>',
                 details: "    简单得到三种蛋<br/>"+
@@ -71,7 +71,7 @@ export class RecipesGenerate extends Component {
                 seasonings: [],
                 cooking_methods: ["锅"],
                 image:"image/egg/温泉蛋/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1TT4y127vu/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>温泉蛋</color></a><br/>',
                 details: "    简单得到温泉蛋<br/>"+
@@ -85,7 +85,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["醋"],
                 cooking_methods: ["锅"],
                 image:"image/egg/水波蛋/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1TT4y127vu/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>水波蛋</color></a><br/>',
                 details: "    简单得到水波蛋，蛋白更加凝固，蛋黄呈液态<br/>"+
@@ -100,7 +100,7 @@ export class RecipesGenerate extends Component {
                 seasonings: [],
                 cooking_methods: ["锅"],
                 image:"image/egg/炸蛋/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1TT4y127vu/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>炸蛋</color></a><br/>',
                 details: "    简单得到炸蛋<br/>"+
@@ -114,7 +114,7 @@ export class RecipesGenerate extends Component {
                 seasonings: [],
                 cooking_methods: ["锅"],
                 image:"image/egg/铺盖炸蛋/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1TT4y127vu/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>铺盖炸蛋</color></a><br/>',
                 details: "    简单得到吸汤汁的铺盖炸蛋<br/>"+
@@ -130,7 +130,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["大蒜","香油"],
                 cooking_methods: ["锅"],
                 image:"image/egg/鸡蛋蒜/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1TT4y127vu/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>鸡蛋蒜</color></a><br/>',
                 details: "    简单得到鸡蛋蒜酱料，适合食材不多的情况，与馒头绝配<br/>"+
@@ -144,7 +144,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["黄豆酱","香其酱"],
                 cooking_methods: ["锅"],
                 image:"image/egg/东北鸡蛋酱/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1TT4y127vu/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>东北鸡蛋酱</color></a><br/>',
                 details: "    简单得到东北鸡蛋酱<br/>"+
@@ -159,7 +159,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["盐","胡椒粉","牛奶","黄油"],
                 cooking_methods: ["英式炒蛋"],
                 image:"image/egg/英式炒蛋/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1TT4y127vu/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>英式炒蛋</color></a><br/>',
                 details: "    不一样的炒蛋：英式炒蛋<br/>"+
@@ -175,7 +175,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["黄油","胡椒粉"],
                 cooking_methods: ["锅"],
                 image:"image/egg/法式炒蛋/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1TT4y127vu/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>法式炒蛋</color></a><br/>',
                 details: "    不一样的炒蛋：法式炒蛋<br/>"+
@@ -191,7 +191,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["桂皮","八角","香叶","辣椒","生抽","老抽","蚝油","糖","盐","红茶茶包"],
                 cooking_methods: ["锅"],
                 image:"image/egg/茶叶蛋/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1TT4y127vu/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>茶叶蛋</color></a><br/>',
                 details: "    简单得到茶叶蛋<br/>"+
@@ -207,7 +207,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["大蒜","香菜","洋葱","小米椒","柠檬","芝麻","生抽","蚝油","鱼露","糖","醋"],
                 cooking_methods: ["锅"],
                 image:"image/egg/泰式卤蛋/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1TT4y127vu/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>泰式卤蛋</color></a><br/>',
                 details: "    简单得到泰式卤蛋<br/>"+
@@ -220,7 +220,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["糖","醋","生抽","蚝油","胡椒粉","生粉","香葱"],
                 cooking_methods: ["锅"],
                 image:"image/egg/糖醋荷包蛋/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1TT4y127vu/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>糖醋荷包蛋</color></a><br/>',
                 details: "    简单得到糖醋荷包蛋<br/>"+
@@ -236,7 +236,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["牛奶","炼乳"],
                 cooking_methods: ["烤箱"],
                 image:"image/egg/烤布丁/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1TT4y127vu/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>烤布丁</color></a><br/>',
                 details: "    非常好吃的烤布丁<br/>"+
@@ -250,7 +250,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["盐","香葱","鲣鱼酱汁"],
                 cooking_methods: ["锅"],
                 image:"image/egg/厚蛋烧/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1TT4y127vu/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>厚蛋烧</color></a><br/>',
                 details: "    手艺活厚蛋烧<br/>"+
@@ -267,7 +267,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["黄芥末","沙拉酱","辣椒粉"],
                 cooking_methods: ["锅"],
                 image:"image/egg/魔鬼蛋/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1TT4y127vu/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>魔鬼蛋</color></a><br/>',
                 details: "    西餐中一种比较另类的鸡蛋沙拉<br/>"+
@@ -282,7 +282,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["醋","糖","生姜"],
                 cooking_methods: ["锅"],
                 image:"image/egg/赛螃蟹/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1TT4y127vu/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>赛螃蟹</color></a><br/>',
                 details: "    鸡蛋想象力的天花板<br/>"+
@@ -300,7 +300,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["猪肉","生抽","蚝油","生粉","面包糠"],
                 cooking_methods: ["锅"],
                 image:"image/egg/苏格兰蛋/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1TT4y127vu/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>苏格兰蛋</color></a><br/>',
                 details: "    英国一道豪放的料理<br/>"+
@@ -316,7 +316,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["醋","英式马芬","黄油"],
                 cooking_methods: ["锅"],
                 image:"image/egg/班尼迪克蛋/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1TT4y127vu/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>班尼迪克蛋</color></a><br/>',
                 details: "    最容易翻车的蛋<br/>"+
@@ -335,7 +335,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["花生酱","芝麻酱","生抽","蚝油","陈醋","糖","盐","油泼辣子","温水","芝麻","香葱"],
                 cooking_methods: ["锅"],
                 image:"image/potato/拌土豆片/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>拌土豆片</color></a><br/>',
                 details: "    好吃的拌土豆片<br/>"+
@@ -352,7 +352,7 @@ export class RecipesGenerate extends Component {
                 seasonings: [],
                 cooking_methods: ["锅"],
                 image:"image/potato/煎土豆/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>煎土豆</color></a><br/>',
                 details: "    好吃的煎土豆<br/>"+
@@ -368,7 +368,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["面粉","盐","花椒粉","芝麻"],
                 cooking_methods: ["锅"],
                 image:"image/potato/土豆丝饼/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>土豆丝饼</color></a><br/>',
                 details: "    好吃的土豆丝饼<br/>"+
@@ -384,7 +384,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["面粉","盐","花椒粉","芝麻","黄油"],
                 cooking_methods: ["烤箱"],
                 image:"image/potato/土豆挞/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>土豆挞</color></a><br/>',
                 details: "    好吃的土豆挞，得先得到土豆丝饼的面糊再来<br/>"+
@@ -400,7 +400,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["沙拉酱","盐","胡椒粉","黄油"],
                 cooking_methods: ["烤箱"],
                 image:"image/potato/日式土豆泥/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>日式土豆泥</color></a><br/>',
                 details: "    好吃的日式土豆泥<br/>"+
@@ -415,7 +415,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["白醋","生粉"],
                 cooking_methods: ["锅"],
                 image:"image/potato/薯条/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>薯条</color></a><br/>',
                 details: "    好吃的薯条<br/>"+
@@ -430,7 +430,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["腌菜","胡椒粉","海椒面","茴香"],
                 cooking_methods: ["锅"],
                 image:"image/potato/老奶洋芋/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>老奶洋芋</color></a><br/>',
                 details: "    好吃的老奶洋芋<br/>"+
@@ -445,7 +445,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["腌菜","胡椒粉","海椒面","茴香"],
                 cooking_methods: ["锅"],
                 image:"image/potato/洋芋擦擦/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>洋芋擦擦</color></a><br/>',
                 details: "    好吃的拨烂子<br/>"+
@@ -462,7 +462,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["牛奶","糖"],
                 cooking_methods: ["锅","烤箱"],
                 image:"image/potato/千层土豆烘蛋/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>千层土豆烘蛋</color></a><br/>',
                 details: "    好吃的千层土豆烘蛋<br/>"+
@@ -479,7 +479,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["啤酒","糖","桂皮","生抽","盐","八角","香葱"],
                 cooking_methods: ["锅"],
                 image:"image/potato/土豆红烧肉/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>土豆红烧肉</color></a><br/>',
                 details: "    好吃的土豆红烧肉<br/>"+
@@ -496,7 +496,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["黄油","大蒜","番茄酱","浓汤宝"],
                 cooking_methods: ["锅","烤箱"],
                 image:"image/potato/牧羊人派/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>牧羊人派</color></a><br/>',
                 details: "    好吃的牧羊人派<br/>"+
@@ -513,7 +513,7 @@ export class RecipesGenerate extends Component {
                 seasonings: ["料酒","生抽","蚝油","大蒜","小米椒","番茄酱","醋","浓汤宝","香葱"],
                 cooking_methods: ["锅"],
                 image:"image/potato/火烧云油焖鸡/spriteFrame",
-                link:'<color=#00E0FF>观看视频:</color>'+
+                link:'<color=#00E0FF>点击文字观看视频:</color>'+
                 '<a href="https://www.bilibili.com/video/BV1fY41187Xo/?vd_source=e755d42c1fa3c6fdabb1800dabbdca80">'+
                 '<color=#FF0000>火烧云油焖鸡</color></a><br/>',
                 details: "    好吃的火烧云油焖鸡<br/>"+
