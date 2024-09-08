@@ -1,4 +1,4 @@
-import { _decorator, Button, Color, Component, director, instantiate, Label, Node, Prefab, ScrollBar, Sprite, UIOpacity, UITransform } from 'cc';
+import { _decorator, Button, Color, Component, director, instantiate, Label, Node, Prefab, ScrollBar, Sprite, tween, UIOpacity, UITransform, Vec3 } from 'cc';
 import { RecipesGenerate } from '../RecipesGenerate';
 import { UIStackManager } from '../../UIStackManager';
 import { NavigationBar } from '../NavigationBar';
@@ -40,8 +40,8 @@ export class IngredientSearch extends Component {
     private selectedCookingMethod: string = '';  // 已选择的烹饪方式
 
     onLoad() {
-        const opacityComp = this.ingredientSearch.getComponent(UIOpacity);
-        opacityComp.opacity = 0;
+        // const opacityComp = this.ingredientSearch.getComponent(UIOpacity);
+        // opacityComp.opacity = 0;
         // 初始化食材按钮和烹饪方式按钮
         this.generateIngredientButtons();
         this.generateCookingMethodButtons();
@@ -49,15 +49,28 @@ export class IngredientSearch extends Component {
         this.scheduleOnce(() => {
             this.updateScrollViewHeight();
             this.updateRecipeList();
-            opacityComp.opacity = 255;
+            // opacityComp.opacity = 255;
         }, 0);
     }
     updateScrollViewHeight() {
         const parentHeight = this.ingredientSearch.getComponent(UITransform).height;
         const otherComponentsHeight = this.calculateOtherComponentsHeight();
         const remainingHeight = parentHeight - otherComponentsHeight;
+        // console.log(remainingHeight);
         // 确保剩余高度大于0
         if (remainingHeight > 0) {
+            // tween(this.recipeList.getComponent(UITransform))
+            // .to(0.3, { height: remainingHeight }, { easing: 'quadOut' })
+            // .start();
+            // tween(this.recipeList.getChildByName("scrollBar").getComponent(UITransform))
+            // .to(0.3, { height: remainingHeight }, { easing: 'quadOut' })
+            // .start();
+            // tween(this.recipeList.getChildByName("view").getComponent(UITransform))
+            // .to(0.3, { height: remainingHeight }, { easing: 'quadOut' })
+            // .start();
+            // tween(this.content.getComponent(UITransform))
+            // .to(0.3, { height: remainingHeight }, { easing: 'quadOut' })
+            // .start();
             this.recipeList.getComponent(UITransform).height = remainingHeight;
             this.recipeList.getChildByName("scrollBar").getComponent(UITransform).height = remainingHeight;
             this.recipeList.getChildByName("view").getComponent(UITransform).height = remainingHeight;

@@ -1,5 +1,6 @@
 import { _decorator, Button, Color, color, Component, director, instantiate, Label, Node, Prefab, resources, RichText, Sprite, SpriteFrame, sys, UITransform } from 'cc';
 import { UIStackManager } from '../UIStackManager';
+import { IngredientSearch } from './IngredientSearch/IngredientSearch';
 const { ccclass, property } = _decorator;
 
 @ccclass('NavigationBar')
@@ -41,6 +42,14 @@ export class NavigationBar extends Component {
 
     onLoad() {
         this.goToHome();
+        // 获取食材界面组件的脚本组件
+        // const ingredientSearchComponent = this.ingredientSearchPanel.getComponent(IngredientSearch);
+
+        // // 手动调用食材界面组件的 onLoad 方法
+        // ingredientSearchComponent.s();
+
+        // 将食材界面节点设置为非活动状态
+        // this.ingredientSearchPanel.active = false;
     }
 
     goToHome() {

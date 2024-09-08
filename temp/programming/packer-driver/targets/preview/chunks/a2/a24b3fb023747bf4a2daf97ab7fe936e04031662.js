@@ -86,7 +86,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
         // 默认颜色为白色
         onLoad() {
-          this.goToHome();
+          this.goToHome(); // 获取食材界面组件的脚本组件
+          // const ingredientSearchComponent = this.ingredientSearchPanel.getComponent(IngredientSearch);
+          // // 手动调用食材界面组件的 onLoad 方法
+          // ingredientSearchComponent.s();
+          // 将食材界面节点设置为非活动状态
+          // this.ingredientSearchPanel.active = false;
         }
 
         goToHome() {
